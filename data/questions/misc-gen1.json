@@ -1,0 +1,1082 @@
+[
+{
+"id": "misc-g001",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "My brother is ___ than me.",
+"options": [
+"taller",
+"more tall",
+"tallest",
+"the tallest"
+],
+"correct": [
+0
+],
+"translation_uk": "Мій брат вищий за мене.",
+"rule": {
+"name": "Вищий ступінь: -er",
+"text_uk": "Короткі прикметники: + -er + than (tall → taller)."
+},
+"explanations_uk": [
+"Правильно: taller than.",
+"more — для довгих прикметників.",
+"tallest — найвищий ступінь.",
+"the tallest — найвищий ступінь, не з than."
+]
+},
+{
+"id": "misc-g002",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "This book is ___ than the film.",
+"options": [
+"more interesting",
+"interestinger",
+"most interesting",
+"the more interesting"
+],
+"correct": [
+0
+],
+"translation_uk": "Ця книжка цікавіша за фільм.",
+"rule": {
+"name": "Вищий ступінь: more",
+"text_uk": "Довгі прикметники (2+ склади): more + прикметник + than."
+},
+"explanations_uk": [
+"Правильно: more interesting.",
+"interestinger — неправильно.",
+"most — найвищий ступінь.",
+"the more — неправильно тут."
+]
+},
+{
+"id": "misc-g003",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "Today is ___ day of the year.",
+"options": [
+"the hottest",
+"the hotest",
+"hotter",
+"the most hot"
+],
+"correct": [
+0
+],
+"translation_uk": "Сьогодні найспекотніший день року.",
+"rule": {
+"name": "Найвищий ступінь: подвоєння приголосної",
+"text_uk": "hot → hotter → the hottest (голосна + приголосна → подвоєння)."
+},
+"explanations_uk": [
+"Правильно: the hottest.",
+"Бракує подвоєння t.",
+"hotter — вищий ступінь.",
+"most hot — неправильно для короткого прикметника."
+]
+},
+{
+"id": "misc-g004",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "My cold is ___ today than yesterday.",
+"options": [
+"worse",
+"badder",
+"worst",
+"more bad"
+],
+"correct": [
+0
+],
+"translation_uk": "Сьогодні моя застуда гірша, ніж учора.",
+"rule": {
+"name": "Неправильні ступені порівняння",
+"text_uk": "bad → worse → the worst; good → better → the best; far → further → the furthest."
+},
+"explanations_uk": [
+"Правильно: worse.",
+"badder не існує.",
+"worst — найвищий ступінь.",
+"more bad — неправильно."
+]
+},
+{
+"id": "misc-g005",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "Ann is ___ student in our class.",
+"options": [
+"the best",
+"the better",
+"the goodest",
+"best"
+],
+"correct": [
+0
+],
+"translation_uk": "Анна — найкраща учениця в нашому класі.",
+"rule": {
+"name": "good → better → the best",
+"text_uk": "Найвищий ступінь — з the."
+},
+"explanations_uk": [
+"Правильно: the best.",
+"better — вищий ступінь.",
+"goodest не існує.",
+"Бракує the."
+]
+},
+{
+"id": "misc-g006",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "Is Canada ___ country in North America?",
+"options": [
+"the biggest",
+"the bigest",
+"bigger",
+"the most big"
+],
+"correct": [
+0
+],
+"translation_uk": "Чи Канада — найбільша країна в Північній Америці?",
+"rule": {
+"name": "big → bigger → the biggest",
+"text_uk": "Подвоєння кінцевої приголосної."
+},
+"explanations_uk": [
+"Правильно: the biggest.",
+"Бракує подвоєння g.",
+"bigger — вищий ступінь.",
+"most big — неправильно."
+]
+},
+{
+"id": "misc-g007",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "This test was ___ than the last one.",
+"options": [
+"easier",
+"more easy",
+"easyer",
+"easiest"
+],
+"correct": [
+0
+],
+"translation_uk": "Цей тест був легшим за попередній.",
+"rule": {
+"name": "-y → -ier",
+"text_uk": "Прикметник на -y: easy → easier → the easiest."
+},
+"explanations_uk": [
+"Правильно: easier.",
+"more easy — неправильно.",
+"Неправильне написання.",
+"easiest — найвищий ступінь."
+]
+},
+{
+"id": "misc-g008",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "My sister is as tall ___ my mum.",
+"options": [
+"as",
+"than",
+"like",
+"so"
+],
+"correct": [
+0
+],
+"translation_uk": "Моя сестра такого ж зросту, як мама.",
+"rule": {
+"name": "as ... as",
+"text_uk": "as + прикметник + as — такий самий, як."
+},
+"explanations_uk": [
+"Правильно: as tall as.",
+"than — після вищого ступеня.",
+"like — не в цій конструкції.",
+"so ... as — лише в запереченнях (not so tall as)."
+]
+},
+{
+"id": "misc-g009",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "Maths isn't ___ difficult as physics.",
+"options": [
+"as",
+"more",
+"than",
+"the"
+],
+"correct": [
+0
+],
+"translation_uk": "Математика не така складна, як фізика.",
+"rule": {
+"name": "not as ... as",
+"text_uk": "not as + прикметник + as — не такий, як."
+},
+"explanations_uk": [
+"Правильно: not as difficult as.",
+"more ... as — неправильно.",
+"than ... as — неправильно.",
+"the ... as — неправильно."
+]
+},
+{
+"id": "misc-g010",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "She sings very ___",
+"options": [
+"well.",
+"good.",
+"goodly.",
+"best."
+],
+"correct": [
+0
+],
+"translation_uk": "Вона дуже добре співає.",
+"rule": {
+"name": "good (прикм.) vs well (присл.)",
+"text_uk": "Прикметник описує іменник (a good singer); прислівник — дієслово (sings well)."
+},
+"explanations_uk": [
+"Правильно: sings well.",
+"good — прикметник.",
+"goodly не існує в цьому значенні.",
+"best — найвищий ступінь."
+]
+},
+{
+"id": "misc-g011",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "Please drive ___ It's raining.",
+"options": [
+"carefully.",
+"careful.",
+"more careful.",
+"care."
+],
+"correct": [
+0
+],
+"translation_uk": "Будь ласка, їдь обережно. Іде дощ.",
+"rule": {
+"name": "Прислівники на -ly",
+"text_uk": "Прислівник способу дії: прикметник + -ly (careful → carefully)."
+},
+"explanations_uk": [
+"Правильно: drive carefully.",
+"careful — прикметник.",
+"Прикметник у вищому ступені.",
+"care — іменник."
+]
+},
+{
+"id": "misc-g012",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "He runs very ___",
+"options": [
+"fast.",
+"fastly.",
+"quick.",
+"fastest."
+],
+"correct": [
+0
+],
+"translation_uk": "Він дуже швидко бігає.",
+"rule": {
+"name": "Неправильні прислівники",
+"text_uk": "fast, hard, late, early — однакові для прикметника і прислівника."
+},
+"explanations_uk": [
+"Правильно: runs fast.",
+"fastly не існує.",
+"quick — прикметник (прислівник — quickly).",
+"fastest — найвищий ступінь."
+]
+},
+{
+"id": "misc-g013",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "The water is too cold ___ swim in.",
+"options": [
+"to",
+"for",
+"enough",
+"so"
+],
+"correct": [
+0
+],
+"translation_uk": "Вода надто холодна, щоб у ній плавати.",
+"rule": {
+"name": "too + прикметник + to",
+"text_uk": "too cold to swim — надто холодно, щоб..."
+},
+"explanations_uk": [
+"Правильно: too cold to swim.",
+"for + дієслово — неправильно.",
+"enough — інша конструкція.",
+"so ... swim — неправильно."
+]
+},
+{
+"id": "misc-g014",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "I can't reach the shelf. I'm not ___",
+"options": [
+"tall enough.",
+"enough tall.",
+"too tall.",
+"so tall enough."
+],
+"correct": [
+0
+],
+"translation_uk": "Я не можу дістати до полиці. Я недостатньо високий.",
+"rule": {
+"name": "прикметник + enough",
+"text_uk": "enough стоїть після прикметника (tall enough), але перед іменником (enough money)."
+},
+"explanations_uk": [
+"Правильно: tall enough.",
+"enough після прикметника.",
+"«не надто високий» — нелогічно.",
+"so і enough разом — неправильно."
+]
+},
+{
+"id": "misc-g015",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "We haven't got ___ to buy a new car.",
+"options": [
+"enough money",
+"money enough",
+"too money",
+"so money"
+],
+"correct": [
+0
+],
+"translation_uk": "У нас недостатньо грошей, щоб купити нову машину.",
+"rule": {
+"name": "enough + іменник",
+"text_uk": "enough стоїть перед іменником: enough money, enough time."
+},
+"explanations_uk": [
+"Правильно: enough money.",
+"enough ставимо перед іменником.",
+"too money — неправильно (too much money).",
+"so money — неправильно."
+]
+},
+{
+"id": "misc-g016",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "It was ___ a good film that I watched it twice.",
+"options": [
+"such",
+"so",
+"too",
+"very"
+],
+"correct": [
+0
+],
+"translation_uk": "Це був такий хороший фільм, що я подивився його двічі.",
+"rule": {
+"name": "such a + прикметник + іменник + that",
+"text_uk": "such a good film that...; so good that..."
+},
+"explanations_uk": [
+"Правильно: such a good film.",
+"so a good film — неправильно.",
+"too a good — неправильно.",
+"very a good — неправильний порядок."
+]
+},
+{
+"id": "misc-g017",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "The film was ___ boring that I fell asleep.",
+"options": [
+"so",
+"such",
+"such a",
+"too"
+],
+"correct": [
+0
+],
+"translation_uk": "Фільм був таким нудним, що я заснув.",
+"rule": {
+"name": "so + прикметник + that",
+"text_uk": "so + прикметник (без іменника)."
+},
+"explanations_uk": [
+"Правильно: so boring that.",
+"such — з іменником.",
+"such a — з іменником.",
+"too ... that — неправильно."
+]
+},
+{
+"id": "misc-g018",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "They are ___ nice people!",
+"options": [
+"such",
+"so",
+"such a",
+"very a"
+],
+"correct": [
+0
+],
+"translation_uk": "Вони такі приємні люди!",
+"rule": {
+"name": "such + множина/незлічуване",
+"text_uk": "such + прикметник + іменник у множині (без a)."
+},
+"explanations_uk": [
+"Правильно: such nice people.",
+"so — без іменника.",
+"such a — лише з одниною.",
+"very a — неправильно."
+]
+},
+{
+"id": "misc-g019",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "The party is ___ Saturday.",
+"options": [
+"on",
+"in",
+"at",
+"by"
+],
+"correct": [
+0
+],
+"translation_uk": "Вечірка в суботу.",
+"rule": {
+"name": "on + дні",
+"text_uk": "on Monday, on my birthday, on 3 May."
+},
+"explanations_uk": [
+"Правильно: on Saturday.",
+"in — місяці, роки, пори року.",
+"at — точний час, свята (at Christmas).",
+"by — «до» (дедлайн)."
+]
+},
+{
+"id": "misc-g020",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "My birthday is ___ July.",
+"options": [
+"in",
+"on",
+"at",
+"since"
+],
+"correct": [
+0
+],
+"translation_uk": "Мій день народження в липні.",
+"rule": {
+"name": "in + місяці",
+"text_uk": "in July, in 2025, in summer, in the morning."
+},
+"explanations_uk": [
+"Правильно: in July.",
+"on — дні й дати.",
+"at — точний час.",
+"since — «з», для Present Perfect."
+]
+},
+{
+"id": "misc-g021",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "I always wake up ___ 6:30.",
+"options": [
+"at",
+"on",
+"in",
+"by"
+],
+"correct": [
+0
+],
+"translation_uk": "Я завжди прокидаюся о 6:30.",
+"rule": {
+"name": "at + годинник",
+"text_uk": "at 6:30, at noon, at midnight, at night, at the weekend."
+},
+"explanations_uk": [
+"Правильно: at 6:30.",
+"on — дні.",
+"in — місяці, роки.",
+"by 6:30 — «не пізніше 6:30», інше значення."
+]
+},
+{
+"id": "misc-g022",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "We open presents ___ Christmas Day.",
+"options": [
+"on",
+"at",
+"in",
+"for"
+],
+"correct": [
+0
+],
+"translation_uk": "Ми відкриваємо подарунки на Різдво (в день Різдва).",
+"rule": {
+"name": "on Christmas Day vs at Christmas",
+"text_uk": "on + конкретний день (on Christmas Day); at + період свята (at Christmas)."
+},
+"explanations_uk": [
+"Правильно: on Christmas Day — конкретний день.",
+"at — з Christmas без Day.",
+"in — неправильно.",
+"for — «на» в іншому значенні."
+]
+},
+{
+"id": "misc-g023",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "I don't like going out ___ night.",
+"options": [
+"at",
+"in",
+"on",
+"during"
+],
+"correct": [
+0
+],
+"translation_uk": "Я не люблю виходити вночі.",
+"rule": {
+"name": "at night vs in the morning",
+"text_uk": "at night, але in the morning/afternoon/evening."
+},
+"explanations_uk": [
+"Правильно: at night.",
+"in the night — рідко, на іспиті at night.",
+"on night — неправильно.",
+"during night — бракує the."
+]
+},
+{
+"id": "misc-g024",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "The cat is sleeping ___ the sofa.",
+"options": [
+"on",
+"in",
+"at",
+"into"
+],
+"correct": [
+0
+],
+"translation_uk": "Кіт спить на дивані.",
+"rule": {
+"name": "Прийменники місця: on / in / at",
+"text_uk": "on — на поверхні; in — всередині; at — у пункті (at the bus stop)."
+},
+"explanations_uk": [
+"Правильно: on the sofa.",
+"in the sofa — всередині дивана.",
+"at the sofa — біля дивана.",
+"into — рух всередину."
+]
+},
+{
+"id": "misc-g025",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "I'll meet you ___ the bus stop.",
+"options": [
+"at",
+"in",
+"on",
+"into"
+],
+"correct": [
+0
+],
+"translation_uk": "Зустрінемося на зупинці.",
+"rule": {
+"name": "at — конкретна точка",
+"text_uk": "at the bus stop, at the station, at the door, at school."
+},
+"explanations_uk": [
+"Правильно: at the bus stop.",
+"in — всередині.",
+"on — на поверхні.",
+"into — рух."
+]
+},
+{
+"id": "misc-g026",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "There's a picture ___ the wall.",
+"options": [
+"on",
+"in",
+"at",
+"above of"
+],
+"correct": [
+0
+],
+"translation_uk": "На стіні висить картина.",
+"rule": {
+"name": "on the wall",
+"text_uk": "on — на поверхні (on the wall, on the table)."
+},
+"explanations_uk": [
+"Правильно: on the wall.",
+"in the wall — всередині стіни.",
+"at the wall — біля стіни.",
+"above of — неправильно (above без of)."
+]
+},
+{
+"id": "misc-g027",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "The bank is ___ the post office and the pharmacy.",
+"options": [
+"between",
+"among",
+"next",
+"opposite of"
+],
+"correct": [
+0
+],
+"translation_uk": "Банк між поштою та аптекою.",
+"rule": {
+"name": "between ... and",
+"text_uk": "between — між двома; among — серед багатьох."
+},
+"explanations_uk": [
+"Правильно: between ... and.",
+"among — серед багатьох.",
+"next — потрібне to (next to).",
+"opposite of — без of: opposite."
+]
+},
+{
+"id": "misc-g028",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "She walked ___ the room and sat down.",
+"options": [
+"into",
+"in to",
+"inside of",
+"at"
+],
+"correct": [
+0
+],
+"translation_uk": "Вона увійшла в кімнату і сіла.",
+"rule": {
+"name": "into — рух всередину",
+"text_uk": "into — напрямок руху (walk into the room); in — місце."
+},
+"explanations_uk": [
+"Правильно: into the room.",
+"in to — окремо пишеться лише в інших конструкціях.",
+"inside of — неприродно тут.",
+"at — не рух всередину."
+]
+},
+{
+"id": "misc-g029",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "I'm waiting ___ my friend.",
+"options": [
+"for",
+"on",
+"to",
+"at"
+],
+"correct": [
+0
+],
+"translation_uk": "Я чекаю на свого друга.",
+"rule": {
+"name": "wait for",
+"text_uk": "wait for someone/something — чекати на."
+},
+"explanations_uk": [
+"Правильно: wait for.",
+"wait on — обслуговувати.",
+"wait to — неправильно з іменником.",
+"wait at — де чекати (wait at the station)."
+]
+},
+{
+"id": "misc-g030",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "This book belongs ___ my sister.",
+"options": [
+"to",
+"for",
+"with",
+"at"
+],
+"correct": [
+0
+],
+"translation_uk": "Ця книжка належить моїй сестрі.",
+"rule": {
+"name": "belong to",
+"text_uk": "belong to — належати комусь."
+},
+"explanations_uk": [
+"Правильно: belongs to.",
+"for — неправильно.",
+"with — неправильно.",
+"at — неправильно."
+]
+},
+{
+"id": "misc-g031",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "Are you afraid ___ spiders?",
+"options": [
+"of",
+"from",
+"for",
+"with"
+],
+"correct": [
+0
+],
+"translation_uk": "Ти боїшся павуків?",
+"rule": {
+"name": "afraid of",
+"text_uk": "afraid of / scared of / frightened of."
+},
+"explanations_uk": [
+"Правильно: afraid of.",
+"from — калька з польської (bać się czegoś), неправильно.",
+"for — неправильно.",
+"with — неправильно."
+]
+},
+{
+"id": "misc-g032",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "It depends ___ the weather.",
+"options": [
+"on",
+"of",
+"from",
+"at"
+],
+"correct": [
+0
+],
+"translation_uk": "Це залежить від погоди.",
+"rule": {
+"name": "depend on",
+"text_uk": "depend on — залежати від (не from, не of)."
+},
+"explanations_uk": [
+"Правильно: depends on.",
+"of — неправильно.",
+"from — калька з польської (zależy od), неправильно.",
+"at — неправильно."
+]
+},
+{
+"id": "misc-g033",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "I'm very proud ___ you!",
+"options": [
+"of",
+"from",
+"with",
+"for"
+],
+"correct": [
+0
+],
+"translation_uk": "Я дуже тобою пишаюся!",
+"rule": {
+"name": "proud of",
+"text_uk": "proud of — пишатися кимось."
+},
+"explanations_uk": [
+"Правильно: proud of.",
+"from — неправильно.",
+"with — неправильно.",
+"for — неправильно."
+]
+},
+{
+"id": "misc-g034",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "You're coming to the party, ___?",
+"options": [
+"aren't you",
+"don't you",
+"isn't it",
+"won't you"
+],
+"correct": [
+0
+],
+"translation_uk": "Ти прийдеш на вечірку, так?",
+"rule": {
+"name": "Question tags",
+"text_uk": "Ствердження → заперечний «хвостик» з тим самим допоміжним дієсловом: You are..., aren't you?"
+},
+"explanations_uk": [
+"Правильно: aren't you.",
+"don't — для Present Simple, а тут are.",
+"isn't it — неправильний займенник.",
+"won't — для will."
+]
+},
+{
+"id": "misc-g035",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "She likes pizza, ___?",
+"options": [
+"doesn't she",
+"isn't she",
+"don't she",
+"likes she"
+],
+"correct": [
+0
+],
+"translation_uk": "Вона любить піцу, так?",
+"rule": {
+"name": "Question tags — Present Simple",
+"text_uk": "she likes → doesn't she?"
+},
+"explanations_uk": [
+"Правильно: doesn't she.",
+"isn't — для be.",
+"don't — не для she.",
+"Неправильна форма."
+]
+},
+{
+"id": "misc-g036",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "You haven't seen my keys, ___?",
+"options": [
+"have you",
+"haven't you",
+"did you",
+"do you"
+],
+"correct": [
+0
+],
+"translation_uk": "Ти не бачив моїх ключів?",
+"rule": {
+"name": "Question tags після заперечення",
+"text_uk": "Заперечення → стверджувальний хвостик: haven't → have you?"
+},
+"explanations_uk": [
+"Правильно: have you.",
+"Після заперечення хвостик стверджувальний.",
+"did — для Past Simple.",
+"do — для Present Simple."
+]
+},
+{
+"id": "misc-g037",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "They went to Paris last year, ___?",
+"options": [
+"didn't they",
+"weren't they",
+"haven't they",
+"don't they"
+],
+"correct": [
+0
+],
+"translation_uk": "Вони їздили до Парижа минулого року, так?",
+"rule": {
+"name": "Question tags — Past Simple",
+"text_uk": "went → didn't they?"
+},
+"explanations_uk": [
+"Правильно: didn't they.",
+"weren't — для be.",
+"haven't — для Present Perfect.",
+"don't — теперішній час."
+]
+},
+{
+"id": "misc-g038",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "Let's go to the park, ___?",
+"options": [
+"shall we",
+"will we",
+"don't we",
+"let's we"
+],
+"correct": [
+0
+],
+"translation_uk": "Ходімо в парк, добре?",
+"rule": {
+"name": "Let's ..., shall we?",
+"text_uk": "Після Let's — хвостик shall we?"
+},
+"explanations_uk": [
+"Правильно: shall we?",
+"will we — неправильно.",
+"don't we — неправильно.",
+"Неправильна форма."
+]
+},
+{
+"id": "misc-g039",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "I'm right, ___?",
+"options": [
+"aren't I",
+"amn't I",
+"am not I",
+"isn't I"
+],
+"correct": [
+0
+],
+"translation_uk": "Я правий, хіба ні?",
+"rule": {
+"name": "I am → aren't I?",
+"text_uk": "Виняток: хвостик до I am — aren't I?"
+},
+"explanations_uk": [
+"Правильно: aren't I?",
+"amn't не існує.",
+"Неправильний порядок.",
+"isn't — для he/she/it."
+]
+},
+{
+"id": "misc-g040",
+"source": "generated",
+"category": "grammar_misc",
+"prompt": "Uzupełnij lukę.",
+"text": "\"I love chocolate.\" \"So ___ I.\"",
+"options": [
+"do",
+"am",
+"have",
+"love"
+],
+"correct": [
+0
+],
+"translation_uk": "«Я люблю шоколад». — «Я теж».",
+"rule": {
+"name": "So do I / Neither do I",
+"text_uk": "So + допоміжне дієслово + підмет — згода зі ствердженням."
+},
+"explanations_uk": [
+"Правильно: So do I.",
+"am — для be.",
+"have — для Present Perfect/have got.",
+"Повне дієслово тут не вживаємо."
+]
+}
+]

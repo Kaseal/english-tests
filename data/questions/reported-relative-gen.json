@@ -1,0 +1,2085 @@
+[
+{
+"id": "rep-g001",
+"source": "generated",
+"category": "reported",
+"prompt": "Zamień na mowę zależną: Tom said: \"I am tired.\"",
+"text": "",
+"options": [
+"Tom said he was tired.",
+"Tom said he is tired yesterday.",
+"Tom said I was tired.",
+"Tom said he were tired."
+],
+"correct": [
+0
+],
+"translation_uk": "Том сказав, що втомився.",
+"rule": {
+"name": "Reported Speech: am/is → was",
+"text_uk": "Present Simple → Past Simple; займенник I → he/she."
+},
+"explanations_uk": [
+"Правильно: he was tired.",
+"Зайве yesterday і немає зсуву часу.",
+"Займенник не змінено: I → he.",
+"were не вживається з he."
+]
+},
+{
+"id": "rep-g002",
+"source": "generated",
+"category": "reported",
+"prompt": "Zamień na mowę zależną: She said: \"I am watching TV.\"",
+"text": "",
+"options": [
+"She said she was watching TV.",
+"She said she is watching TV.",
+"She said she watched TV.",
+"She said she had watching TV."
+],
+"correct": [
+0
+],
+"translation_uk": "Вона сказала, що дивиться телевізор.",
+"rule": {
+"name": "Present Continuous → Past Continuous",
+"text_uk": "am/is/are + -ing → was/were + -ing."
+},
+"explanations_uk": [
+"Правильно: was watching.",
+"Немає зсуву часу.",
+"Past Simple — втрачено значення тривалості.",
+"had watching — неправильно."
+]
+},
+{
+"id": "rep-g003",
+"source": "generated",
+"category": "reported",
+"prompt": "Zamień na mowę zależną: He said: \"I will help you.\"",
+"text": "",
+"options": [
+"He said he will help me.",
+"He said he would help me.",
+"He said he helps me.",
+"He said he would helped me."
+],
+"correct": [
+1
+],
+"translation_uk": "Він сказав, що допоможе мені.",
+"rule": {
+"name": "will → would",
+"text_uk": "У непрямій мові will змінюється на would; you → me."
+},
+"explanations_uk": [
+"Немає зсуву: will → would.",
+"Правильно: would help.",
+"Present Simple — неправильно.",
+"Після would — базова форма."
+]
+},
+{
+"id": "rep-g004",
+"source": "generated",
+"category": "reported",
+"prompt": "Zamień na mowę zależną: \"I have finished my homework,\" said Ola.",
+"text": "",
+"options": [
+"Ola said she has finished her homework.",
+"Ola said she had finished her homework.",
+"Ola said she finished my homework.",
+"Ola said she was finished her homework."
+],
+"correct": [
+1
+],
+"translation_uk": "Оля сказала, що закінчила домашнє завдання.",
+"rule": {
+"name": "Present Perfect → Past Perfect",
+"text_uk": "have/has done → had done; my → her."
+},
+"explanations_uk": [
+"Немає зсуву часу.",
+"Правильно: had finished.",
+"Неправильний займенник my.",
+"was finished — пасив, неправильно."
+]
+},
+{
+"id": "rep-g005",
+"source": "generated",
+"category": "reported",
+"prompt": "Zamień na mowę zależną: Mark said: \"I can swim.\"",
+"text": "",
+"options": [
+"Mark said he could swim.",
+"Mark said he can to swim.",
+"Mark said he could swam.",
+"Mark said I can swim."
+],
+"correct": [
+0
+],
+"translation_uk": "Марк сказав, що вміє плавати.",
+"rule": {
+"name": "can → could",
+"text_uk": "can → could; must → had to; will → would."
+},
+"explanations_uk": [
+"Правильно: could swim.",
+"Після can не ставимо to.",
+"Після could — базова форма.",
+"Займенник I → he і немає зсуву."
+]
+},
+{
+"id": "rep-g006",
+"source": "generated",
+"category": "reported",
+"prompt": "Zamień na mowę zależną: \"We are going to the cinema tomorrow,\" they said.",
+"text": "",
+"options": [
+"They said they were going to the cinema the next day.",
+"They said they are going to the cinema tomorrow.",
+"They said we were going to the cinema the next day.",
+"They said they went to the cinema the day before."
+],
+"correct": [
+0
+],
+"translation_uk": "Вони сказали, що наступного дня йдуть у кіно.",
+"rule": {
+"name": "tomorrow → the next day",
+"text_uk": "tomorrow → the next day / the following day; are → were."
+},
+"explanations_uk": [
+"Правильно.",
+"Немає зсуву часу і не змінено tomorrow.",
+"Неправильний займенник we.",
+"Змінено зміст: the day before — «напередодні»."
+]
+},
+{
+"id": "rep-g007",
+"source": "generated",
+"category": "reported",
+"prompt": "Uzupełnij lukę.",
+"text": "\"I saw her yesterday.\" → He said he had seen her ___",
+"options": [
+"yesterday",
+"the day before",
+"tomorrow",
+"the next day"
+],
+"correct": [
+1
+],
+"translation_uk": "Він сказав, що бачив її напередодні.",
+"rule": {
+"name": "yesterday → the day before",
+"text_uk": "yesterday → the day before / the previous day."
+},
+"explanations_uk": [
+"yesterday треба змінити.",
+"Правильно: the day before.",
+"tomorrow — протилежне.",
+"the next day — замість tomorrow."
+]
+},
+{
+"id": "rep-g008",
+"source": "generated",
+"category": "reported",
+"prompt": "Uzupełnij lukę.",
+"text": "\"I live here.\" → She said she lived ___",
+"options": [
+"here",
+"there",
+"this",
+"those"
+],
+"correct": [
+1
+],
+"translation_uk": "Вона сказала, що живе там.",
+"rule": {
+"name": "here → there; this → that",
+"text_uk": "Слова місця і вказівні займенники змінюються: here → there, this → that, these → those."
+},
+"explanations_uk": [
+"here треба змінити на there.",
+"Правильно: there.",
+"this — займенник, не місце.",
+"those — займенник, не місце."
+]
+},
+{
+"id": "rep-g009",
+"source": "generated",
+"category": "reported",
+"prompt": "Zamień na mowę zależną: \"Where do you live?\" he asked me.",
+"text": "",
+"options": [
+"He asked me where did I live.",
+"He asked me where I lived.",
+"He asked me where do I live.",
+"He asked me where I live?"
+],
+"correct": [
+1
+],
+"translation_uk": "Він запитав мене, де я живу.",
+"rule": {
+"name": "Непрямі питання (wh-)",
+"text_uk": "Питальне слово + прямий порядок слів, без do/did; зсув часу."
+},
+"explanations_uk": [
+"У непрямому питанні не вживаємо did.",
+"Правильно: where I lived.",
+"Немає зсуву і питальний порядок.",
+"Без зсуву, і в кінці не ставимо знак питання."
+]
+},
+{
+"id": "rep-g010",
+"source": "generated",
+"category": "reported",
+"prompt": "Zamień na mowę zależną: \"Do you like pizza?\" she asked.",
+"text": "",
+"options": [
+"She asked if I liked pizza.",
+"She asked do I like pizza.",
+"She asked if did I like pizza.",
+"She asked that I liked pizza."
+],
+"correct": [
+0
+],
+"translation_uk": "Вона запитала, чи люблю я піцу.",
+"rule": {
+"name": "Непрямі питання так/ні",
+"text_uk": "if/whether + прямий порядок слів + зсув часу."
+},
+"explanations_uk": [
+"Правильно: asked if I liked.",
+"Питальний порядок — неправильно.",
+"did після if — неправильно.",
+"that — для тверджень, не для питань."
+]
+},
+{
+"id": "rep-g011",
+"source": "generated",
+"category": "reported",
+"prompt": "Zamień na mowę zależną: \"Close the door,\" the teacher said to me.",
+"text": "",
+"options": [
+"The teacher told me close the door.",
+"The teacher told me to close the door.",
+"The teacher said me to close the door.",
+"The teacher told to me to close the door."
+],
+"correct": [
+1
+],
+"translation_uk": "Учитель сказав мені зачинити двері.",
+"rule": {
+"name": "Накази в непрямій мові",
+"text_uk": "tell + особа + to + дієслово."
+},
+"explanations_uk": [
+"Бракує to.",
+"Правильно: told me to close.",
+"said me — неправильно.",
+"Після tell не ставимо to перед особою."
+]
+},
+{
+"id": "rep-g012",
+"source": "generated",
+"category": "reported",
+"prompt": "Zamień na mowę zależną: \"Don't touch it!\" Mum said to us.",
+"text": "",
+"options": [
+"Mum told us not to touch it.",
+"Mum told us don't touch it.",
+"Mum told us to not touching it.",
+"Mum said us not touch it."
+],
+"correct": [
+0
+],
+"translation_uk": "Мама сказала нам цього не торкатися.",
+"rule": {
+"name": "Заборона в непрямій мові",
+"text_uk": "tell + особа + not to + дієслово."
+},
+"explanations_uk": [
+"Правильно: told us not to touch.",
+"don't у непрямій мові — неправильно.",
+"Неправильна форма -ing.",
+"said us — неправильно і бракує to."
+]
+},
+{
+"id": "rep-g013",
+"source": "generated",
+"category": "reported",
+"prompt": "Uzupełnij lukę.",
+"text": "She ___ that she was hungry.",
+"options": [
+"said",
+"told",
+"said me",
+"told that"
+],
+"correct": [
+0
+],
+"translation_uk": "Вона сказала, що голодна.",
+"rule": {
+"name": "say vs tell",
+"text_uk": "say (that) — без особи; tell + особа (told me that)."
+},
+"explanations_uk": [
+"Правильно: said that.",
+"told потребує особи: told me.",
+"said me — неправильно.",
+"told that — бракує особи."
+]
+},
+{
+"id": "rep-g014",
+"source": "generated",
+"category": "reported",
+"prompt": "Uzupełnij lukę.",
+"text": "He ___ us a funny story.",
+"options": [
+"said",
+"told",
+"spoke",
+"talked"
+],
+"correct": [
+1
+],
+"translation_uk": "Він розповів нам смішну історію.",
+"rule": {
+"name": "tell a story / tell the truth / tell a lie",
+"text_uk": "Сталі вирази з tell: tell a story, tell a joke, tell the truth."
+},
+"explanations_uk": [
+"said us — неправильно.",
+"Правильно: told us a story.",
+"spoke us — неправильно.",
+"talked us — неправильно."
+]
+},
+{
+"id": "rep-g015",
+"source": "generated",
+"category": "reported",
+"prompt": "Zamień na mowę zależną: \"I must go now,\" said Peter.",
+"text": "",
+"options": [
+"Peter said he had to go then.",
+"Peter said he must going now.",
+"Peter said I must go now.",
+"Peter said he has to go now."
+],
+"correct": [
+0
+],
+"translation_uk": "Пітер сказав, що мусить іти (тоді).",
+"rule": {
+"name": "must → had to; now → then",
+"text_uk": "must → had to (або must); now → then."
+},
+"explanations_uk": [
+"Правильно: had to go then.",
+"Неправильна форма.",
+"Займенник не змінено.",
+"Немає зсуву часу і now не змінено."
+]
+},
+{
+"id": "rep-g016",
+"source": "generated",
+"category": "reported",
+"prompt": "Zamień na mowę zależną: \"What time is it?\" he asked.",
+"text": "",
+"options": [
+"He asked what time it was.",
+"He asked what time was it.",
+"He asked what time is it.",
+"He asked what was the time it."
+],
+"correct": [
+0
+],
+"translation_uk": "Він запитав, котра година.",
+"rule": {
+"name": "Непрямі питання",
+"text_uk": "Питальне слово + підмет + дієслово (what time it was)."
+},
+"explanations_uk": [
+"Правильно: what time it was.",
+"Питальний порядок — неправильно.",
+"Немає зсуву і питальний порядок.",
+"Неправильний порядок слів."
+]
+},
+{
+"id": "rep-g017",
+"source": "generated",
+"category": "reported",
+"prompt": "Uzupełnij lukę.",
+"text": "\"I'll call you later,\" said Kasia. → Kasia ___ to call me later.",
+"options": [
+"promised",
+"suggested",
+"denied",
+"refused"
+],
+"correct": [
+0
+],
+"translation_uk": "Кася пообіцяла подзвонити мені пізніше.",
+"rule": {
+"name": "Дієслова мовлення: promise to",
+"text_uk": "I'll... → promise + to + дієслово."
+},
+"explanations_uk": [
+"Правильно: promised to call.",
+"suggest — пропонувати (+ -ing).",
+"deny — заперечувати (+ -ing).",
+"refuse — відмовлятися, протилежне."
+]
+},
+{
+"id": "rep-g018",
+"source": "generated",
+"category": "reported",
+"prompt": "Uzupełnij lukę.",
+"text": "\"I didn't break the vase!\" said Tom. → Tom ___ breaking the vase.",
+"options": [
+"denied",
+"promised",
+"agreed",
+"offered"
+],
+"correct": [
+0
+],
+"translation_uk": "Том заперечив, що розбив вазу.",
+"rule": {
+"name": "deny + -ing",
+"text_uk": "deny + -ing — заперечувати, що зробив."
+},
+"explanations_uk": [
+"Правильно: denied breaking.",
+"promise + to, і не за змістом.",
+"agree + to, не за змістом.",
+"offer + to, не за змістом."
+]
+},
+{
+"id": "rep-g019",
+"source": "generated",
+"category": "reported",
+"prompt": "Uzupełnij lukę.",
+"text": "\"Shall I carry your bag?\" he said. → He ___ to carry my bag.",
+"options": [
+"offered",
+"denied",
+"suggested",
+"refused"
+],
+"correct": [
+0
+],
+"translation_uk": "Він запропонував понести мою сумку.",
+"rule": {
+"name": "offer to",
+"text_uk": "Shall I...? / I'll... (допомога) → offer + to + дієслово."
+},
+"explanations_uk": [
+"Правильно: offered to carry.",
+"deny — заперечувати.",
+"suggest + -ing, не з to.",
+"refuse — відмовитися, протилежне."
+]
+},
+{
+"id": "rep-g020",
+"source": "generated",
+"category": "reported",
+"prompt": "Uzupełnij lukę.",
+"text": "\"I won't do it!\" said the boy. → The boy ___ to do it.",
+"options": [
+"refused",
+"offered",
+"promised",
+"agreed"
+],
+"correct": [
+0
+],
+"translation_uk": "Хлопчик відмовився це робити.",
+"rule": {
+"name": "refuse to",
+"text_uk": "I won't... (відмова) → refuse + to + дієслово."
+},
+"explanations_uk": [
+"Правильно: refused to do.",
+"offer — пропонувати.",
+"promise — обіцяти.",
+"agree — погодитися, протилежне."
+]
+},
+{
+"id": "rep-g021",
+"source": "generated",
+"category": "reported",
+"prompt": "Zamień na mowę zależną: \"Can you help me?\" Anna asked me.",
+"text": "",
+"options": [
+"Anna asked me if I could help her.",
+"Anna asked me can I help her.",
+"Anna asked me if could I help her.",
+"Anna asked me that I could help her."
+],
+"correct": [
+0
+],
+"translation_uk": "Анна запитала мене, чи можу я їй допомогти.",
+"rule": {
+"name": "Непрямі питання з модальними",
+"text_uk": "if + підмет + could (can → could)."
+},
+"explanations_uk": [
+"Правильно.",
+"Питальний порядок і немає зсуву.",
+"Після if — прямий порядок.",
+"that — для тверджень."
+]
+},
+{
+"id": "rep-g022",
+"source": "generated",
+"category": "reported",
+"prompt": "Uzupełnij lukę.",
+"text": "\"This book is mine.\" → She said that ___ book was hers.",
+"options": [
+"this",
+"that",
+"these",
+"those"
+],
+"correct": [
+1
+],
+"translation_uk": "Вона сказала, що та книжка — її.",
+"rule": {
+"name": "this → that",
+"text_uk": "У непрямій мові this → that, these → those."
+},
+"explanations_uk": [
+"this треба змінити.",
+"Правильно: that.",
+"these — множина.",
+"those — множина."
+]
+},
+{
+"id": "rep-g023",
+"source": "generated",
+"category": "reported",
+"prompt": "Zamień na mowę zależną: \"I was at home last night,\" he said.",
+"text": "",
+"options": [
+"He said he had been at home the night before.",
+"He said he was at home last night.",
+"He said he has been at home the night before.",
+"He said he had been at home last night."
+],
+"correct": [
+0
+],
+"translation_uk": "Він сказав, що попереднього вечора був удома.",
+"rule": {
+"name": "Past Simple → Past Perfect; last night → the night before",
+"text_uk": "was → had been; last night → the night before / the previous night."
+},
+"explanations_uk": [
+"Правильно.",
+"Немає зсуву і last night не змінено.",
+"Present Perfect — неправильно.",
+"Час правильний, але last night не змінено."
+]
+},
+{
+"id": "rep-g024",
+"source": "generated",
+"category": "reported",
+"prompt": "Uzupełnij lukę.",
+"text": "I don't know ___",
+"options": [
+"where she lives.",
+"where does she live.",
+"where lives she.",
+"where she does live?"
+],
+"correct": [
+0
+],
+"translation_uk": "Я не знаю, де вона живе.",
+"rule": {
+"name": "Непрямі питання після I don't know / Do you know",
+"text_uk": "Після I don't know, Can you tell me — прямий порядок слів."
+},
+"explanations_uk": [
+"Правильно: where she lives.",
+"Питальний порядок — неправильно.",
+"Неправильний порядок слів.",
+"Зайве does і знак питання."
+]
+},
+{
+"id": "rep-g025",
+"source": "generated",
+"category": "reported",
+"prompt": "Uzupełnij lukę.",
+"text": "Can you tell me ___?",
+"options": [
+"what time the train leaves",
+"what time does the train leave",
+"what time leaves the train",
+"what time the train does leave"
+],
+"correct": [
+0
+],
+"translation_uk": "Чи можете ви сказати мені, о котрій відходить потяг?",
+"rule": {
+"name": "Ввічливі непрямі питання",
+"text_uk": "Can you tell me / Do you know + питальне слово + прямий порядок."
+},
+"explanations_uk": [
+"Правильно.",
+"Після Can you tell me — без does.",
+"Неправильний порядок.",
+"Зайве does."
+]
+},
+{
+"id": "rep-g026",
+"source": "generated",
+"category": "reported",
+"prompt": "Uzupełnij lukę.",
+"text": "\"Let's play chess.\" → He suggested ___ chess.",
+"options": [
+"playing",
+"to play",
+"play",
+"played"
+],
+"correct": [
+0
+],
+"translation_uk": "Він запропонував пограти в шахи.",
+"rule": {
+"name": "suggest + -ing",
+"text_uk": "suggest + -ing або suggest that we (should) play."
+},
+"explanations_uk": [
+"Правильно: suggested playing.",
+"suggest + to — помилка.",
+"Базова форма — неправильно.",
+"Минула форма — неправильно."
+]
+},
+{
+"id": "rep-g027",
+"source": "generated",
+"category": "reported",
+"prompt": "Zamień na mowę zależną: \"You should study more,\" the teacher told me.",
+"text": "",
+"options": [
+"The teacher told me I should study more.",
+"The teacher told me I shall study more.",
+"The teacher told me should I study more.",
+"The teacher told me I should studied more."
+],
+"correct": [
+0
+],
+"translation_uk": "Учитель сказав мені, що я маю більше вчитися.",
+"rule": {
+"name": "should не змінюється",
+"text_uk": "should, could, would, might в непрямій мові не змінюються."
+},
+"explanations_uk": [
+"Правильно.",
+"shall — інше значення.",
+"Питальний порядок — неправильно.",
+"Після should — базова форма."
+]
+},
+{
+"id": "rep-g028",
+"source": "generated",
+"category": "reported",
+"prompt": "Zamień na mowę zależną: \"Are you hungry?\" Mum asked me.",
+"text": "",
+"options": [
+"Mum asked me if I was hungry.",
+"Mum asked me was I hungry.",
+"Mum asked me if I am hungry.",
+"Mum asked me if was I hungry."
+],
+"correct": [
+0
+],
+"translation_uk": "Мама запитала мене, чи я голодний.",
+"rule": {
+"name": "Непрямі питання так/ні",
+"text_uk": "if + підмет + was/were (зсув часу)."
+},
+"explanations_uk": [
+"Правильно.",
+"Питальний порядок — неправильно.",
+"Немає зсуву часу.",
+"Після if — прямий порядок."
+]
+},
+{
+"id": "rep-g029",
+"source": "generated",
+"category": "reported",
+"prompt": "Uzupełnij lukę.",
+"text": "He asked me ___ I had ever been to Rome.",
+"options": [
+"whether",
+"that",
+"what",
+"do"
+],
+"correct": [
+0
+],
+"translation_uk": "Він запитав мене, чи був я коли-небудь у Римі.",
+"rule": {
+"name": "whether = if",
+"text_uk": "whether / if — «чи» в непрямих питаннях."
+},
+"explanations_uk": [
+"Правильно: whether.",
+"that — для тверджень.",
+"what — «що», тут питання так/ні.",
+"do — неправильно."
+]
+},
+{
+"id": "rep-g030",
+"source": "generated",
+"category": "reported",
+"prompt": "Zamień na mowę zależną: \"Please sit down,\" she said to the guests.",
+"text": "",
+"options": [
+"She asked the guests to sit down.",
+"She asked the guests sit down.",
+"She asked to the guests to sit down.",
+"She said the guests to sit down."
+],
+"correct": [
+0
+],
+"translation_uk": "Вона попросила гостей сісти.",
+"rule": {
+"name": "Прохання: ask + особа + to",
+"text_uk": "Please... → ask someone to do something."
+},
+"explanations_uk": [
+"Правильно: asked the guests to sit down.",
+"Бракує to.",
+"Після ask не ставимо to перед особою.",
+"said + особа — неправильно."
+]
+},
+{
+"id": "rep-g031",
+"source": "generated",
+"category": "reported",
+"prompt": "Zamień na mowę zależną: \"I don't like horror films,\" said Jack.",
+"text": "",
+"options": [
+"Jack said he didn't like horror films.",
+"Jack said he doesn't liked horror films.",
+"Jack said he hadn't like horror films.",
+"Jack said I didn't like horror films."
+],
+"correct": [
+0
+],
+"translation_uk": "Джек сказав, що не любить фільми жахів.",
+"rule": {
+"name": "don't → didn't",
+"text_uk": "Present Simple (don't like) → Past Simple (didn't like)."
+},
+"explanations_uk": [
+"Правильно.",
+"doesn't + liked — неправильно.",
+"hadn't like — неправильно.",
+"Займенник I → he."
+]
+},
+{
+"id": "rep-g032",
+"source": "generated",
+"category": "reported",
+"prompt": "Uzupełnij lukę.",
+"text": "\"I'm sorry I'm late,\" said Ewa. → Ewa ___ for being late.",
+"options": [
+"apologised",
+"promised",
+"refused",
+"offered"
+],
+"correct": [
+0
+],
+"translation_uk": "Ева вибачилася за запізнення.",
+"rule": {
+"name": "apologise for + -ing",
+"text_uk": "I'm sorry... → apologise for + -ing."
+},
+"explanations_uk": [
+"Правильно: apologised for being late.",
+"promise — обіцяти.",
+"refuse — відмовлятися.",
+"offer — пропонувати."
+]
+},
+{
+"id": "rep-g033",
+"source": "generated",
+"category": "reported",
+"prompt": "Zamień na mowę zależną: \"How old are you?\" the man asked her.",
+"text": "",
+"options": [
+"The man asked her how old she was.",
+"The man asked her how old was she.",
+"The man asked her how old is she.",
+"The man asked her how old are you."
+],
+"correct": [
+0
+],
+"translation_uk": "Чоловік запитав її, скільки їй років.",
+"rule": {
+"name": "Непрямі питання",
+"text_uk": "how old + підмет + was."
+},
+"explanations_uk": [
+"Правильно.",
+"Питальний порядок — неправильно.",
+"Питальний порядок і без зсуву.",
+"Пряма мова без змін."
+]
+},
+{
+"id": "rep-g034",
+"source": "generated",
+"category": "reported",
+"prompt": "Które zdania są poprawne?",
+"text": "",
+"options": [
+"She told me that she was ill.",
+"She said me that she was ill.",
+"She said that she was ill.",
+"She told that she was ill."
+],
+"correct": [
+0,
+2
+],
+"translation_uk": "Які речення правильні?",
+"rule": {
+"name": "say vs tell",
+"text_uk": "tell + особа; say без особи (або say to + особа)."
+},
+"explanations_uk": [
+"Правильно: told me.",
+"said me — неправильно.",
+"Правильно: said that.",
+"told без особи — неправильно."
+]
+},
+{
+"id": "rep-g035",
+"source": "generated",
+"category": "reported",
+"prompt": "Zamień na mowę zależną: \"I'm going to buy a new bike,\" said Ben.",
+"text": "",
+"options": [
+"Ben said he was going to buy a new bike.",
+"Ben said he is going to bought a new bike.",
+"Ben said he were going to buy a new bike.",
+"Ben said I was going to buy a new bike."
+],
+"correct": [
+0
+],
+"translation_uk": "Бен сказав, що збирається купити новий велосипед.",
+"rule": {
+"name": "am going to → was going to",
+"text_uk": "be going to → was/were going to."
+},
+"explanations_uk": [
+"Правильно.",
+"Після to — базова форма, і немає зсуву.",
+"were не вживається з he.",
+"Займенник I → he."
+]
+},
+{
+"id": "rep-g036",
+"source": "generated",
+"category": "reported",
+"prompt": "Uzupełnij lukę.",
+"text": "\"I'll see you next week.\" → He said he would see me ___",
+"options": [
+"the following week",
+"next week ago",
+"the previous week",
+"last week"
+],
+"correct": [
+0
+],
+"translation_uk": "Він сказав, що побачиться зі мною наступного тижня.",
+"rule": {
+"name": "next week → the following week",
+"text_uk": "next week → the following week / the week after."
+},
+"explanations_uk": [
+"Правильно.",
+"Неправильний вираз.",
+"the previous week — попередній тиждень.",
+"last week — минулий тиждень."
+]
+},
+{
+"id": "rep-g037",
+"source": "generated",
+"category": "reported",
+"prompt": "Uzupełnij lukę.",
+"text": "The doctor advised me ___ more water.",
+"options": [
+"to drink",
+"drink",
+"drinking",
+"drank"
+],
+"correct": [
+0
+],
+"translation_uk": "Лікар порадив мені пити більше води.",
+"rule": {
+"name": "advise + особа + to",
+"text_uk": "advise someone to do something."
+},
+"explanations_uk": [
+"Правильно: advised me to drink.",
+"Бракує to.",
+"advise + особа + -ing — неправильно.",
+"Минула форма неправильна."
+]
+},
+{
+"id": "rep-g038",
+"source": "generated",
+"category": "reported",
+"prompt": "Zamień na mowę zależną: \"Did you enjoy the film?\" Kate asked.",
+"text": "",
+"options": [
+"Kate asked if I had enjoyed the film.",
+"Kate asked did I enjoy the film.",
+"Kate asked if had I enjoyed the film.",
+"Kate asked that I enjoyed the film."
+],
+"correct": [
+0
+],
+"translation_uk": "Кейт запитала, чи сподобався мені фільм.",
+"rule": {
+"name": "Past Simple → Past Perfect у питаннях",
+"text_uk": "Did you...? → if + підмет + had + 3-я форма."
+},
+"explanations_uk": [
+"Правильно.",
+"Питальний порядок — неправильно.",
+"Після if — прямий порядок.",
+"that — для тверджень."
+]
+},
+{
+"id": "rel-g001",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "This is the book ___ I told you about.",
+"options": [
+"who",
+"which",
+"whose",
+"where"
+],
+"correct": [
+1
+],
+"translation_uk": "Це та книжка, про яку я тобі розповідав.",
+"rule": {
+"name": "which / that — для речей",
+"text_uk": "which (або that) — для речей і тварин."
+},
+"explanations_uk": [
+"who — для людей.",
+"Правильно: which.",
+"whose — «чий», потребує іменника.",
+"where — для місць."
+]
+},
+{
+"id": "rel-g002",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "The man ___ lives next door is a firefighter.",
+"options": [
+"who",
+"which",
+"whose",
+"where"
+],
+"correct": [
+0
+],
+"translation_uk": "Чоловік, який живе по сусідству, — пожежник.",
+"rule": {
+"name": "who — для людей",
+"text_uk": "who (або that) — для людей."
+},
+"explanations_uk": [
+"Правильно: who.",
+"which — для речей.",
+"whose — належність.",
+"where — місце."
+]
+},
+{
+"id": "rel-g003",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "That's the house ___ I was born.",
+"options": [
+"which",
+"where",
+"who",
+"when"
+],
+"correct": [
+1
+],
+"translation_uk": "Це будинок, де я народився.",
+"rule": {
+"name": "where — для місць",
+"text_uk": "where = in which — місце, де щось відбувається."
+},
+"explanations_uk": [
+"which потребує прийменника: in which.",
+"Правильно: where.",
+"who — для людей.",
+"when — для часу."
+]
+},
+{
+"id": "rel-g004",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "I remember the day ___ we first met.",
+"options": [
+"when",
+"where",
+"which",
+"who"
+],
+"correct": [
+0
+],
+"translation_uk": "Я пам'ятаю день, коли ми вперше зустрілися.",
+"rule": {
+"name": "when — для часу",
+"text_uk": "when — після слів day, year, time, moment."
+},
+"explanations_uk": [
+"Правильно: when.",
+"where — для місць.",
+"which без прийменника — неправильно.",
+"who — для людей."
+]
+},
+{
+"id": "rel-g005",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "I have a friend ___ father is a pilot.",
+"options": [
+"who",
+"whose",
+"which",
+"that"
+],
+"correct": [
+1
+],
+"translation_uk": "У мене є друг, чий батько — пілот.",
+"rule": {
+"name": "whose — належність",
+"text_uk": "whose + іменник — «чий»."
+},
+"explanations_uk": [
+"who father — неправильно.",
+"Правильно: whose father.",
+"which — для речей.",
+"that не передає належності."
+]
+},
+{
+"id": "rel-g006",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "The film ___ we watched last night was boring.",
+"options": [
+"that",
+"who",
+"whose",
+"where"
+],
+"correct": [
+0
+],
+"translation_uk": "Фільм, який ми дивилися вчора ввечері, був нудним.",
+"rule": {
+"name": "that — для речей і людей",
+"text_uk": "that може замінити who/which у визначальних підрядних (без ком)."
+},
+"explanations_uk": [
+"Правильно: that.",
+"who — для людей.",
+"whose — належність.",
+"where — місце."
+]
+},
+{
+"id": "rel-g007",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "The girl ___ won the competition is in my class.",
+"options": [
+"who",
+"that",
+"which",
+"whose"
+],
+"correct": [
+0,
+1
+],
+"translation_uk": "Дівчина, яка виграла змагання, — з мого класу.",
+"rule": {
+"name": "who / that — для людей",
+"text_uk": "У визначальних підрядних (без ком) для людей — who або that."
+},
+"explanations_uk": [
+"Правильно: who.",
+"Правильно: that.",
+"which — для речей.",
+"whose — належність."
+]
+},
+{
+"id": "rel-g008",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "My grandma, ___ is 85, still goes swimming.",
+"options": [
+"who",
+"that",
+"which",
+"whose"
+],
+"correct": [
+0
+],
+"translation_uk": "Моя бабуся, якій 85 років, досі ходить плавати.",
+"rule": {
+"name": "Невизначальні підрядні (з комами)",
+"text_uk": "Після коми не вживаємо that: тільки who/which."
+},
+"explanations_uk": [
+"Правильно: who.",
+"that після коми не вживається.",
+"which — для речей.",
+"whose — належність."
+]
+},
+{
+"id": "rel-g009",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "Warsaw, ___ is the capital of Poland, is on the Vistula.",
+"options": [
+"which",
+"that",
+"where",
+"who"
+],
+"correct": [
+0
+],
+"translation_uk": "Варшава, яка є столицею Польщі, розташована на Віслі.",
+"rule": {
+"name": "which з комами",
+"text_uk": "Додаткова інформація в комах: which (для речей/міст), не that."
+},
+"explanations_uk": [
+"Правильно: which.",
+"that після коми не вживається.",
+"where is — «де є», тут потрібен підмет which.",
+"who — для людей."
+]
+},
+{
+"id": "rel-g010",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "Is this the bag ___ you lost?",
+"options": [
+"that",
+"who",
+"where",
+"whose"
+],
+"correct": [
+0
+],
+"translation_uk": "Це та сумка, яку ти загубив?",
+"rule": {
+"name": "that / which — для речей",
+"text_uk": "that або which — для речей; можна й пропустити (the bag you lost)."
+},
+"explanations_uk": [
+"Правильно: that.",
+"who — для людей.",
+"where — місце.",
+"whose — належність."
+]
+},
+{
+"id": "rel-g011",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "A dentist is a person ___ looks after your teeth.",
+"options": [
+"who",
+"which",
+"whose",
+"where"
+],
+"correct": [
+0
+],
+"translation_uk": "Стоматолог — це людина, яка доглядає за твоїми зубами.",
+"rule": {
+"name": "Визначення: a person who...",
+"text_uk": "Для визначень людей — who."
+},
+"explanations_uk": [
+"Правильно: who.",
+"which — для речей.",
+"whose — належність.",
+"where — місце."
+]
+},
+{
+"id": "rel-g012",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "A fridge is a machine ___ keeps food cold.",
+"options": [
+"which",
+"who",
+"where",
+"whose"
+],
+"correct": [
+0
+],
+"translation_uk": "Холодильник — це прилад, який тримає їжу холодною.",
+"rule": {
+"name": "Визначення: a thing which/that...",
+"text_uk": "Для речей — which або that."
+},
+"explanations_uk": [
+"Правильно: which.",
+"who — для людей.",
+"where — місце.",
+"whose — належність."
+]
+},
+{
+"id": "rel-g013",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "A library is a place ___ you can borrow books.",
+"options": [
+"where",
+"which",
+"who",
+"when"
+],
+"correct": [
+0
+],
+"translation_uk": "Бібліотека — це місце, де можна позичати книжки.",
+"rule": {
+"name": "Визначення: a place where...",
+"text_uk": "Для місць — where."
+},
+"explanations_uk": [
+"Правильно: where.",
+"which без прийменника — неправильно.",
+"who — для людей.",
+"when — час."
+]
+},
+{
+"id": "rel-g014",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "The boy ___ bike was stolen called the police.",
+"options": [
+"whose",
+"who",
+"which",
+"that"
+],
+"correct": [
+0
+],
+"translation_uk": "Хлопець, чий велосипед украли, викликав поліцію.",
+"rule": {
+"name": "whose",
+"text_uk": "whose + іменник — належність."
+},
+"explanations_uk": [
+"Правильно: whose bike.",
+"who bike — неправильно.",
+"which — для речей.",
+"that не передає належності."
+]
+},
+{
+"id": "rel-g015",
+"source": "generated",
+"category": "relative",
+"prompt": "W którym zdaniu można pominąć zaimek względny?",
+"text": "",
+"options": [
+"The cake that you made was delicious.",
+"The boy who lives here is my cousin.",
+"My brother, who is a doctor, lives in Kraków.",
+"The man whose car is red is my uncle."
+],
+"correct": [
+0
+],
+"translation_uk": "У якому реченні можна пропустити відносний займенник?",
+"rule": {
+"name": "Пропуск займенника",
+"text_uk": "Можна пропустити who/which/that, коли він є додатком (після нього стоїть інший підмет): the cake (that) you made."
+},
+"explanations_uk": [
+"Правильно: the cake you made — that є додатком.",
+"who тут підмет (who lives) — не можна пропустити.",
+"Речення з комами — не можна пропустити.",
+"whose не пропускається."
+]
+},
+{
+"id": "rel-g016",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "The people ___ we met on holiday were very friendly.",
+"options": [
+"who",
+"which",
+"whose",
+"where"
+],
+"correct": [
+0
+],
+"translation_uk": "Люди, з якими ми познайомилися у відпустці, були дуже привітні.",
+"rule": {
+"name": "who — для людей",
+"text_uk": "who/that/whom — для людей (тут можна і пропустити)."
+},
+"explanations_uk": [
+"Правильно: who.",
+"which — для речей.",
+"whose — належність.",
+"where — місце."
+]
+},
+{
+"id": "rel-g017",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "I've lost the key ___ opens the garage.",
+"options": [
+"which",
+"who",
+"where",
+"whose"
+],
+"correct": [
+0
+],
+"translation_uk": "Я загубив ключ, який відмикає гараж.",
+"rule": {
+"name": "which — для речей",
+"text_uk": "which/that — для предметів."
+},
+"explanations_uk": [
+"Правильно: which.",
+"who — для людей.",
+"where — місце.",
+"whose — належність."
+]
+},
+{
+"id": "rel-g018",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "Do you know anyone ___ can fix my computer?",
+"options": [
+"who",
+"which",
+"whose",
+"where"
+],
+"correct": [
+0
+],
+"translation_uk": "Ти знаєш когось, хто може полагодити мій комп'ютер?",
+"rule": {
+"name": "who після anyone/someone",
+"text_uk": "anyone, someone, everyone + who."
+},
+"explanations_uk": [
+"Правильно: who.",
+"which — для речей.",
+"whose — належність.",
+"where — місце."
+]
+},
+{
+"id": "rel-g019",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "The restaurant ___ we had dinner was expensive.",
+"options": [
+"where",
+"which",
+"who",
+"whose"
+],
+"correct": [
+0
+],
+"translation_uk": "Ресторан, де ми вечеряли, був дорогим.",
+"rule": {
+"name": "where — місце",
+"text_uk": "where = at/in which."
+},
+"explanations_uk": [
+"Правильно: where.",
+"which потребує прийменника: at which.",
+"who — для людей.",
+"whose — належність."
+]
+},
+{
+"id": "rel-g020",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "She's the singer ___ songs are always on the radio.",
+"options": [
+"whose",
+"who",
+"which",
+"that"
+],
+"correct": [
+0
+],
+"translation_uk": "Це та співачка, чиї пісні постійно звучать по радіо.",
+"rule": {
+"name": "whose",
+"text_uk": "whose + іменник — «чий/чиї»."
+},
+"explanations_uk": [
+"Правильно: whose songs.",
+"who songs — неправильно.",
+"which — для речей.",
+"that — не належність."
+]
+},
+{
+"id": "rel-g021",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "Summer is the time ___ most people go on holiday.",
+"options": [
+"when",
+"where",
+"which",
+"who"
+],
+"correct": [
+0
+],
+"translation_uk": "Літо — це час, коли більшість людей їде у відпустку.",
+"rule": {
+"name": "when — час",
+"text_uk": "time/day/year + when."
+},
+"explanations_uk": [
+"Правильно: when.",
+"where — місце.",
+"which без прийменника — неправильно.",
+"who — для людей."
+]
+},
+{
+"id": "rel-g022",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "My phone, ___ I bought last year, is already broken.",
+"options": [
+"which",
+"that",
+"who",
+"what"
+],
+"correct": [
+0
+],
+"translation_uk": "Мій телефон, який я купив минулого року, уже зламався.",
+"rule": {
+"name": "which з комами",
+"text_uk": "У реченні з комами — which, не that."
+},
+"explanations_uk": [
+"Правильно: which.",
+"that після коми не вживається.",
+"who — для людей.",
+"what не вживається як відносний займенник після іменника."
+]
+},
+{
+"id": "rel-g023",
+"source": "generated",
+"category": "relative",
+"prompt": "Które zdania są poprawne?",
+"text": "",
+"options": [
+"The dog which bit me was black.",
+"The dog who bit me was black.",
+"The teacher which taught me was nice.",
+"The teacher that taught me was nice."
+],
+"correct": [
+0,
+3
+],
+"translation_uk": "Які речення правильні?",
+"rule": {
+"name": "who / which / that",
+"text_uk": "which — для тварин і речей; who — для людей; that — для обох (без ком)."
+},
+"explanations_uk": [
+"Правильно: which для тварини.",
+"who для тварин на іспиті вважається помилкою (крім улюбленців з іменем).",
+"which для людей — неправильно.",
+"Правильно: that для людей."
+]
+},
+{
+"id": "rel-g024",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "I don't understand ___ you are saying.",
+"options": [
+"what",
+"which",
+"that",
+"who"
+],
+"correct": [
+0
+],
+"translation_uk": "Я не розумію, що ти кажеш.",
+"rule": {
+"name": "what = the thing(s) that",
+"text_uk": "what — «те, що»; вживається без іменника перед ним."
+},
+"explanations_uk": [
+"Правильно: what.",
+"which потребує іменника перед собою.",
+"that тут не працює без іменника.",
+"who — для людей."
+]
+},
+{
+"id": "rel-g025",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "That's the hospital ___ my mum works.",
+"options": [
+"where",
+"which",
+"that",
+"who"
+],
+"correct": [
+0
+],
+"translation_uk": "Це лікарня, де працює моя мама.",
+"rule": {
+"name": "where — місце",
+"text_uk": "where — місце, де відбувається дія."
+},
+"explanations_uk": [
+"Правильно: where.",
+"which потребує in: in which.",
+"that потребує in в кінці: that my mum works in.",
+"who — для людей."
+]
+},
+{
+"id": "rel-g026",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "The students ___ passed the exam got a certificate.",
+"options": [
+"who",
+"which",
+"whose",
+"where"
+],
+"correct": [
+0
+],
+"translation_uk": "Учні, які склали іспит, отримали сертифікат.",
+"rule": {
+"name": "who — для людей",
+"text_uk": "who як підмет підрядного речення."
+},
+"explanations_uk": [
+"Правильно: who.",
+"which — для речей.",
+"whose — належність.",
+"where — місце."
+]
+},
+{
+"id": "rel-g027",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "He's the author ___ I met at the book fair.",
+"options": [
+"whom",
+"whose",
+"which",
+"where"
+],
+"correct": [
+0
+],
+"translation_uk": "Це автор, з яким я познайомився на книжковому ярмарку.",
+"rule": {
+"name": "whom — додаток (офіційно)",
+"text_uk": "whom — коли займенник є додатком (я зустрів його)."
+},
+"explanations_uk": [
+"Правильно: whom (або who/that).",
+"whose — належність.",
+"which — для речей.",
+"where — місце."
+]
+},
+{
+"id": "rel-g028",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "Is there anything ___ I can do to help?",
+"options": [
+"that",
+"who",
+"where",
+"whose"
+],
+"correct": [
+0
+],
+"translation_uk": "Чи можу я чимось допомогти?",
+"rule": {
+"name": "that після anything/everything/nothing",
+"text_uk": "Після anything, everything, nothing, something — that (не which)."
+},
+"explanations_uk": [
+"Правильно: that.",
+"who — для людей.",
+"where — місце.",
+"whose — належність."
+]
+},
+{
+"id": "rel-g029",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "This is the best film ___ I have ever seen.",
+"options": [
+"that",
+"which",
+"who",
+"what"
+],
+"correct": [
+0,
+1
+],
+"translation_uk": "Це найкращий фільм, який я коли-небудь бачив.",
+"rule": {
+"name": "that після найвищого ступеня",
+"text_uk": "Після the best, the first, the only — переважно that."
+},
+"explanations_uk": [
+"Правильно: that.",
+"Також правильно: which граматично можливе, хоча після найвищого ступеня частіше вживають that.",
+"who — для людей.",
+"what не вживається після іменника."
+]
+},
+{
+"id": "rel-g030",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "I met a woman ___ son plays for Legia Warsaw.",
+"options": [
+"whose",
+"who",
+"who's",
+"which"
+],
+"correct": [
+0
+],
+"translation_uk": "Я познайомився з жінкою, чий син грає за «Легію Варшава».",
+"rule": {
+"name": "whose vs who's",
+"text_uk": "whose — «чий»; who's = who is / who has."
+},
+"explanations_uk": [
+"Правильно: whose son.",
+"who son — неправильно.",
+"who's = who is — «яка є син» — нелогічно.",
+"which — для речей."
+]
+},
+{
+"id": "rel-g031",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "The museum ___ we visited last week was amazing.",
+"options": [
+"that",
+"where",
+"who",
+"whose"
+],
+"correct": [
+0
+],
+"translation_uk": "Музей, який ми відвідали минулого тижня, був чудовий.",
+"rule": {
+"name": "which/that vs where",
+"text_uk": "Після visited (перехідне дієслово) — which/that; where — лише коли дія відбувається в місці (where we had lunch)."
+},
+"explanations_uk": [
+"Правильно: that we visited.",
+"where we visited — помилка: visit потребує додатка.",
+"who — для людей.",
+"whose — належність."
+]
+},
+{
+"id": "rel-g032",
+"source": "generated",
+"category": "relative",
+"prompt": "Połącz zdania: \"I have a cat. It loves fish.\"",
+"text": "",
+"options": [
+"I have a cat which loves fish.",
+"I have a cat who loves fish it.",
+"I have a cat where loves fish.",
+"I have a cat whose loves fish."
+],
+"correct": [
+0
+],
+"translation_uk": "У мене є кіт, який любить рибу.",
+"rule": {
+"name": "Поєднання речень через which",
+"text_uk": "which замінює it (тварину/річ)."
+},
+"explanations_uk": [
+"Правильно.",
+"Зайве it у кінці.",
+"where — місце.",
+"whose потребує іменника."
+]
+},
+{
+"id": "rel-g033",
+"source": "generated",
+"category": "relative",
+"prompt": "Połącz zdania: \"That's the girl. Her brother is in my class.\"",
+"text": "",
+"options": [
+"That's the girl whose brother is in my class.",
+"That's the girl who brother is in my class.",
+"That's the girl which brother is in my class.",
+"That's the girl whose her brother is in my class."
+],
+"correct": [
+0
+],
+"translation_uk": "Це дівчина, чий брат у моєму класі.",
+"rule": {
+"name": "whose замість her/his",
+"text_uk": "whose замінює присвійний займенник her/his/their."
+},
+"explanations_uk": [
+"Правильно.",
+"who brother — неправильно.",
+"which — для речей.",
+"Зайве her після whose."
+]
+},
+{
+"id": "rel-g034",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "Kraków, ___ my grandparents live, is a beautiful city.",
+"options": [
+"where",
+"which",
+"that",
+"when"
+],
+"correct": [
+0
+],
+"translation_uk": "Краків, де живуть мої бабуся й дідусь, — гарне місто.",
+"rule": {
+"name": "where з комами",
+"text_uk": "Місце + where (дія відбувається там)."
+},
+"explanations_uk": [
+"Правильно: where.",
+"which потребує in: in which.",
+"that після коми не вживається.",
+"when — час."
+]
+},
+{
+"id": "rel-g035",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "Everyone ___ came to the party had a great time.",
+"options": [
+"who",
+"which",
+"whose",
+"what"
+],
+"correct": [
+0
+],
+"translation_uk": "Усі, хто прийшов на вечірку, чудово провели час.",
+"rule": {
+"name": "everyone who",
+"text_uk": "everyone/someone/anyone + who."
+},
+"explanations_uk": [
+"Правильно: who.",
+"which — для речей.",
+"whose — належність.",
+"what не вживається після everyone."
+]
+},
+{
+"id": "rel-g036",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "A vet is a doctor ___ treats animals.",
+"options": [
+"who",
+"which",
+"whose",
+"where"
+],
+"correct": [
+0
+],
+"translation_uk": "Ветеринар — це лікар, який лікує тварин.",
+"rule": {
+"name": "Визначення людей — who",
+"text_uk": "a person/doctor who..."
+},
+"explanations_uk": [
+"Правильно: who.",
+"which — для речей.",
+"whose — належність.",
+"where — місце."
+]
+},
+{
+"id": "rel-g037",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "The jacket ___ I wanted to buy was too expensive.",
+"options": [
+"which",
+"who",
+"whose",
+"where"
+],
+"correct": [
+0
+],
+"translation_uk": "Куртка, яку я хотів купити, була надто дорогою.",
+"rule": {
+"name": "which — для речей",
+"text_uk": "which/that або без займенника (the jacket I wanted)."
+},
+"explanations_uk": [
+"Правильно: which.",
+"who — для людей.",
+"whose — належність.",
+"where — місце."
+]
+},
+{
+"id": "rel-g038",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "2020 was the year ___ the pandemic started.",
+"options": [
+"when",
+"where",
+"which",
+"who"
+],
+"correct": [
+0
+],
+"translation_uk": "2020 рік — рік, коли почалася пандемія.",
+"rule": {
+"name": "when — час",
+"text_uk": "year + when."
+},
+"explanations_uk": [
+"Правильно: when.",
+"where — місце.",
+"which без in — неправильно.",
+"who — для людей."
+]
+},
+{
+"id": "rel-g039",
+"source": "generated",
+"category": "relative",
+"prompt": "Uzupełnij lukę.",
+"text": "He told me something ___ surprised me.",
+"options": [
+"that",
+"who",
+"where",
+"whose"
+],
+"correct": [
+0
+],
+"translation_uk": "Він сказав мені дещо, що мене здивувало.",
+"rule": {
+"name": "something that",
+"text_uk": "Після something/anything/nothing — that."
+},
+"explanations_uk": [
+"Правильно: that.",
+"who — для людей.",
+"where — місце.",
+"whose — належність."
+]
+}
+]

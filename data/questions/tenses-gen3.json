@@ -1,0 +1,1167 @@
+[
+{
+"id": "tenses-g091",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "Sorry I'm late. ___ long?",
+"options": [
+"Have you waited",
+"Have you been waiting",
+"Did you wait",
+"Do you wait"
+],
+"correct": [
+1
+],
+"translation_uk": "Вибач, що запізнився. Ти довго чекаєш?",
+"rule": {
+"name": "Present Perfect Continuous (питання про тривалість)",
+"text_uk": "Дія почалася раніше і триває досі — Have you been + -ing?"
+},
+"explanations_uk": [
+"Present Perfect Simple наголошує на результаті, а тут — на тривалості.",
+"Правильно: Have you been waiting long?",
+"Past Simple — дія завершена в минулому.",
+"Present Simple — звичка."
+]
+},
+{
+"id": "tenses-g092",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "I ___ breakfast yet.",
+"options": [
+"didn't have",
+"haven't had",
+"don't have",
+"hadn't"
+],
+"correct": [
+1
+],
+"translation_uk": "Я ще не снідав.",
+"rule": {
+"name": "Present Perfect + yet",
+"text_uk": "yet у запереченнях — Present Perfect."
+},
+"explanations_uk": [
+"З yet на іспиті очікується Present Perfect.",
+"Правильно: haven't had.",
+"Present Simple не поєднується з yet.",
+"hadn't без 3-ї форми — неправильно."
+]
+},
+{
+"id": "tenses-g093",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "Look! The boys ___ a snowman.",
+"options": [
+"build",
+"are building",
+"built",
+"have build"
+],
+"correct": [
+1
+],
+"translation_uk": "Дивись! Хлопці ліплять сніговика.",
+"rule": {
+"name": "Present Continuous (Look!)",
+"text_uk": "Look! — дія відбувається зараз."
+},
+"explanations_uk": [
+"Present Simple — звичка.",
+"Правильно: are building.",
+"built — минуле.",
+"Після have — 3-я форма built."
+]
+},
+{
+"id": "tenses-g094",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "What time ___ the shop open on Sundays?",
+"options": [
+"do",
+"does",
+"is",
+"has"
+],
+"correct": [
+1,
+2
+],
+"translation_uk": "О котрій відкривається / відчинений магазин у неділю?",
+"rule": {
+"name": "Present Simple — питання (розклад)",
+"text_uk": "Does + it + базова форма (does the shop open); або is + прикметник (is the shop open)."
+},
+"explanations_uk": [
+"do — для множини та I/you.",
+"Правильно: does the shop open.",
+"Правильно: What time is the shop open? — тут open є прикметником «відчинений».",
+"has open — неправильно."
+]
+},
+{
+"id": "tenses-g095",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "I ___ a really interesting book at the moment.",
+"options": [
+"read",
+"am reading",
+"have read",
+"was reading"
+],
+"correct": [
+1
+],
+"translation_uk": "Зараз я читаю дуже цікаву книжку.",
+"rule": {
+"name": "Present Continuous (тимчасовий період)",
+"text_uk": "at the moment може означати «у цей період», не обов'язково саме в цю секунду."
+},
+"explanations_uk": [
+"Present Simple — звичка.",
+"Правильно: am reading.",
+"have read — уже прочитав.",
+"Past Continuous — минуле."
+]
+},
+{
+"id": "tenses-g096",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "In 1990 my parents ___ in a small flat.",
+"options": [
+"lived",
+"have lived",
+"live",
+"had live"
+],
+"correct": [
+0
+],
+"translation_uk": "У 1990 році мої батьки жили в маленькій квартирі.",
+"rule": {
+"name": "Past Simple (рік у минулому)",
+"text_uk": "in 1990 — конкретний момент у минулому → Past Simple."
+},
+"explanations_uk": [
+"Правильно: lived.",
+"Present Perfect не вживається з in 1990.",
+"live — теперішній час.",
+"had live — неправильно."
+]
+},
+{
+"id": "tenses-g097",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "I ___ my wallet! I can't pay for the tickets.",
+"options": [
+"forget",
+"have forgotten",
+"was forgetting",
+"forgets"
+],
+"correct": [
+1
+],
+"translation_uk": "Я забув гаманець! Не можу заплатити за квитки.",
+"rule": {
+"name": "Present Perfect (результат зараз)",
+"text_uk": "Наслідок зараз (не можу заплатити) — have + 3-я форма (forget – forgot – forgotten)."
+},
+"explanations_uk": [
+"Present Simple — звичка.",
+"Правильно: have forgotten.",
+"Past Continuous — процес.",
+"forgets — для he/she/it."
+]
+},
+{
+"id": "tenses-g098",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "We ___ in the queue for two hours before the doors opened.",
+"options": [
+"had been standing",
+"have been standing",
+"are standing",
+"stand"
+],
+"correct": [
+0
+],
+"translation_uk": "Ми простояли в черзі дві години, перш ніж відчинили двері.",
+"rule": {
+"name": "Past Perfect Continuous",
+"text_uk": "Тривала дія до іншої минулої події — had been + -ing."
+},
+"explanations_uk": [
+"Правильно: had been standing.",
+"Present Perfect Continuous — до тепер, а не до минулого.",
+"Present Continuous — теперішній час.",
+"Present Simple — теперішній час."
+]
+},
+{
+"id": "tenses-g099",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "My sister ___ her driving test next month.",
+"options": [
+"is taking",
+"takes yesterday",
+"took",
+"has taken"
+],
+"correct": [
+0
+],
+"translation_uk": "Наступного місяця моя сестра складає іспит з водіння.",
+"rule": {
+"name": "Present Continuous — запланована подія",
+"text_uk": "Домовленість на конкретний час у майбутньому — Present Continuous."
+},
+"explanations_uk": [
+"Правильно: is taking.",
+"Неправильна конструкція.",
+"took — минуле.",
+"has taken — вже склала."
+]
+},
+{
+"id": "tenses-g100",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "Be careful! You ___ fall!",
+"options": [
+"are going to",
+"will going to",
+"going to",
+"go to"
+],
+"correct": [
+0
+],
+"translation_uk": "Обережно! Ти зараз впадеш!",
+"rule": {
+"name": "be going to — неминуче майбутнє",
+"text_uk": "Бачимо, що щось от-от станеться — be going to."
+},
+"explanations_uk": [
+"Правильно: You're going to fall!",
+"will і going to разом — неправильно.",
+"Бракує are.",
+"go to — «йти до», інше значення."
+]
+},
+{
+"id": "tenses-g101",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "Maybe I ___ a new phone next year.",
+"options": [
+"buy",
+"will buy",
+"am buying",
+"bought"
+],
+"correct": [
+1
+],
+"translation_uk": "Можливо, наступного року я куплю новий телефон.",
+"rule": {
+"name": "will + maybe / probably",
+"text_uk": "Непевні плани та припущення — will (Maybe I will...)."
+},
+"explanations_uk": [
+"Present Simple не про майбутнє.",
+"Правильно: will buy.",
+"Present Continuous — тверда домовленість, а maybe — непевність.",
+"bought — минуле."
+]
+},
+{
+"id": "tenses-g102",
+"source": "generated",
+"category": "tenses",
+"prompt": "Które zdanie jest poprawne?",
+"text": "",
+"options": [
+"Did you saw the match?",
+"Did you see the match?",
+"Have you saw the match?",
+"Do you saw the match?"
+],
+"correct": [
+1
+],
+"translation_uk": "Ти бачив матч?",
+"rule": {
+"name": "Питання в Past Simple",
+"text_uk": "Did + підмет + базова форма (see, а не saw)."
+},
+"explanations_uk": [
+"Після did — базова форма see.",
+"Правильно: Did you see...?",
+"Після have — 3-я форма seen.",
+"do + saw — неправильно."
+]
+},
+{
+"id": "tenses-g103",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "I ___ to music while I was running.",
+"options": [
+"listened",
+"was listening",
+"have listened",
+"listen"
+],
+"correct": [
+0,
+1
+],
+"translation_uk": "Я слухав музику, поки бігав.",
+"rule": {
+"name": "Past Continuous / Past Simple з while",
+"text_uk": "Дві одночасні дії в минулому: обидві можуть бути в Past Continuous; Past Simple теж можливий."
+},
+"explanations_uk": [
+"Правильно: listened — можливий варіант.",
+"Правильно: was listening — дві паралельні тривалі дії.",
+"Present Perfect не пасує до розповіді в минулому.",
+"listen — теперішній час."
+]
+},
+{
+"id": "tenses-g104",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "This is the first time I ___ on a plane.",
+"options": [
+"fly",
+"am flying",
+"have flown",
+"flew"
+],
+"correct": [
+2
+],
+"translation_uk": "Я вперше лечу літаком.",
+"rule": {
+"name": "It's the first time + Present Perfect",
+"text_uk": "This is the first/second time + have + 3-я форма."
+},
+"explanations_uk": [
+"Present Simple тут неправильний.",
+"Present Continuous тут неправильний.",
+"Правильно: have flown.",
+"Past Simple тут неправильний."
+]
+},
+{
+"id": "tenses-g105",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "I ___ with my friends at the cinema when my phone rang.",
+"options": [
+"sat",
+"was sitting",
+"have sat",
+"sit"
+],
+"correct": [
+1
+],
+"translation_uk": "Я сидів з друзями в кінотеатрі, коли задзвонив мій телефон.",
+"rule": {
+"name": "Past Continuous + Past Simple",
+"text_uk": "Тривала дія (фон) + коротка подія (rang)."
+},
+"explanations_uk": [
+"sat — не показує фону.",
+"Правильно: was sitting.",
+"Present Perfect — неправильний час.",
+"sit — теперішній час."
+]
+},
+{
+"id": "tenses-g106",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "My uncle ___ as a doctor for twenty years. He retired last year.",
+"options": [
+"has worked",
+"worked",
+"works",
+"is working"
+],
+"correct": [
+1
+],
+"translation_uk": "Мій дядько працював лікарем двадцять років. Минулого року він пішов на пенсію.",
+"rule": {
+"name": "Past Simple + for (завершений період)",
+"text_uk": "Якщо період уже закінчився (пішов на пенсію) — Past Simple навіть з for."
+},
+"explanations_uk": [
+"Present Perfect — означало б, що досі працює.",
+"Правильно: worked — період завершений.",
+"Present Simple — працює зараз, але він на пенсії.",
+"Present Continuous — працює зараз."
+]
+},
+{
+"id": "tenses-g107",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "Why ___ you crying? What happened?",
+"options": [
+"do",
+"are",
+"have",
+"did"
+],
+"correct": [
+1
+],
+"translation_uk": "Чому ти плачеш? Що сталося?",
+"rule": {
+"name": "Present Continuous — питання",
+"text_uk": "Why + am/is/are + підмет + -ing?"
+},
+"explanations_uk": [
+"do crying — неправильно.",
+"Правильно: Why are you crying?",
+"have crying — неправильно (have been crying).",
+"did crying — неправильно."
+]
+},
+{
+"id": "tenses-g108",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "I ___ the answer now. Thanks for explaining!",
+"options": [
+"understand",
+"am understanding",
+"understood now",
+"have understanding"
+],
+"correct": [
+0
+],
+"translation_uk": "Тепер я розумію відповідь. Дякую за пояснення!",
+"rule": {
+"name": "Дієслова стану",
+"text_uk": "understand — дієслово стану, навіть з now у Present Simple."
+},
+"explanations_uk": [
+"Правильно: I understand now.",
+"understand не вживаємо в Continuous.",
+"Неправильна конструкція.",
+"Неправильна конструкція."
+]
+},
+{
+"id": "tenses-g109",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "The match ___ by the time we turned on the TV.",
+"options": [
+"finished",
+"had finished",
+"has finished",
+"finishes"
+],
+"correct": [
+1
+],
+"translation_uk": "Матч уже закінчився, коли ми увімкнули телевізор.",
+"rule": {
+"name": "Past Perfect + by the time",
+"text_uk": "by the time + Past Simple → у головному реченні Past Perfect."
+},
+"explanations_uk": [
+"finished — не показує, що раніше.",
+"Правильно: had finished.",
+"Present Perfect — не з минулою точкою.",
+"Present Simple — неправильний час."
+]
+},
+{
+"id": "tenses-g110",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "We ___ to the seaside every summer when I was little.",
+"options": [
+"went",
+"have gone",
+"go",
+"are going"
+],
+"correct": [
+0
+],
+"translation_uk": "Коли я був маленьким, ми щоліта їздили на море.",
+"rule": {
+"name": "Past Simple (минулі звички)",
+"text_uk": "Повторювані дії в минулому — Past Simple або used to."
+},
+"explanations_uk": [
+"Правильно: went.",
+"Present Perfect не пасує до when I was little.",
+"go — теперішній час.",
+"are going — теперішній час."
+]
+},
+{
+"id": "tenses-g111",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "Shh! I ___ to concentrate.",
+"options": [
+"try",
+"am trying",
+"tried",
+"have tried"
+],
+"correct": [
+1
+],
+"translation_uk": "Тсс! Я намагаюся зосередитися.",
+"rule": {
+"name": "Present Continuous",
+"text_uk": "Дія зараз — am/is/are + -ing."
+},
+"explanations_uk": [
+"Present Simple — звичка.",
+"Правильно: am trying.",
+"tried — минуле.",
+"have tried — результат, а не процес."
+]
+},
+{
+"id": "tenses-g112",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "I ___ Paris three times.",
+"options": [
+"visited ago",
+"have visited",
+"am visiting",
+"visit"
+],
+"correct": [
+1
+],
+"translation_uk": "Я тричі був у Парижі.",
+"rule": {
+"name": "Present Perfect (кількість разів)",
+"text_uk": "Досвід із кількістю разів (three times) без вказівки, коли — Present Perfect."
+},
+"explanations_uk": [
+"ago потребує періоду (two years ago).",
+"Правильно: have visited three times.",
+"Present Continuous не з three times.",
+"Present Simple не передає досвід."
+]
+},
+{
+"id": "tenses-g113",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "When did you ___ your bike?",
+"options": [
+"buy",
+"bought",
+"buying",
+"have bought"
+],
+"correct": [
+0
+],
+"translation_uk": "Коли ти купив свій велосипед?",
+"rule": {
+"name": "When...? + Past Simple",
+"text_uk": "Питання when? про минуле — did + базова форма."
+},
+"explanations_uk": [
+"Правильно: did you buy.",
+"Після did — базова форма.",
+"Форма -ing після did неправильна.",
+"When не вживаємо з Present Perfect."
+]
+},
+{
+"id": "tenses-g114",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "I think it ___ cold tomorrow, so take a jacket.",
+"options": [
+"is",
+"will be",
+"was",
+"has been"
+],
+"correct": [
+1
+],
+"translation_uk": "Думаю, завтра буде холодно, тому візьми куртку.",
+"rule": {
+"name": "will — прогноз-думка",
+"text_uk": "I think + will — припущення про майбутнє."
+},
+"explanations_uk": [
+"Present Simple — не про завтра.",
+"Правильно: will be.",
+"was — минуле.",
+"has been — не про майбутнє."
+]
+},
+{
+"id": "tenses-g115",
+"source": "generated",
+"category": "tenses",
+"prompt": "Które zdania są poprawne?",
+"text": "",
+"options": [
+"I have been to Spain last year.",
+"I went to Spain last year.",
+"I have been to Spain twice.",
+"I have went to Spain."
+],
+"correct": [
+1,
+2
+],
+"translation_uk": "Які речення правильні?",
+"rule": {
+"name": "Present Perfect vs Past Simple",
+"text_uk": "last year — Past Simple; досвід без часу — Present Perfect (been)."
+},
+"explanations_uk": [
+"Present Perfect не вживається з last year.",
+"Правильно.",
+"Правильно.",
+"Після have — 3-я форма gone/been, не went."
+]
+},
+{
+"id": "tenses-g116",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "She ___ her room yet, so she can't go out.",
+"options": [
+"didn't tidy",
+"hasn't tidied",
+"doesn't tidy",
+"isn't tidying"
+],
+"correct": [
+1
+],
+"translation_uk": "Вона ще не прибрала свою кімнату, тому не може вийти.",
+"rule": {
+"name": "Present Perfect + yet",
+"text_uk": "hasn't + 3-я форма + yet."
+},
+"explanations_uk": [
+"З yet — Present Perfect.",
+"Правильно: hasn't tidied.",
+"Present Simple — звичка.",
+"Present Continuous — не з yet."
+]
+},
+{
+"id": "tenses-g117",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "Dinosaurs ___ millions of years ago.",
+"options": [
+"lived",
+"have lived",
+"live",
+"were living now"
+],
+"correct": [
+0
+],
+"translation_uk": "Динозаври жили мільйони років тому.",
+"rule": {
+"name": "Past Simple + ago",
+"text_uk": "ago → Past Simple."
+},
+"explanations_uk": [
+"Правильно: lived.",
+"Present Perfect не вживається з ago.",
+"Present Simple — неправильно.",
+"Неправильна конструкція."
+]
+},
+{
+"id": "tenses-g118",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "I usually walk to school, but this week I ___ by bus because of the snow.",
+"options": [
+"go",
+"am going",
+"went",
+"have gone"
+],
+"correct": [
+1
+],
+"translation_uk": "Зазвичай я ходжу до школи пішки, але цього тижня їжджу автобусом через сніг.",
+"rule": {
+"name": "Present Simple vs Present Continuous",
+"text_uk": "Звичка — Present Simple; тимчасова зміна (this week) — Present Continuous."
+},
+"explanations_uk": [
+"go — звичка, а тут тимчасово.",
+"Правильно: am going.",
+"went — минуле.",
+"have gone — неправильно за змістом."
+]
+},
+{
+"id": "tenses-g119",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "The film was great! We ___ so much.",
+"options": [
+"laughed",
+"have laughed",
+"laugh",
+"were laugh"
+],
+"correct": [
+0
+],
+"translation_uk": "Фільм був чудовий! Ми так сміялися.",
+"rule": {
+"name": "Past Simple",
+"text_uk": "Розповідь про минулу подію (the film was) — Past Simple."
+},
+"explanations_uk": [
+"Правильно: laughed.",
+"Present Perfect не пасує до розповіді в минулому.",
+"laugh — теперішній час.",
+"were laugh — неправильно."
+]
+},
+{
+"id": "tenses-g120",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "How many times ___ you ___ this game?",
+"options": [
+"have / played",
+"did / played",
+"are / playing",
+"do / played"
+],
+"correct": [
+0
+],
+"translation_uk": "Скільки разів ти грав у цю гру?",
+"rule": {
+"name": "Present Perfect (How many times?)",
+"text_uk": "How many times have you + 3-я форма? — досвід до тепер."
+},
+"explanations_uk": [
+"Правильно: have you played.",
+"Після did — базова форма.",
+"are playing — дія зараз, не кількість разів.",
+"do + played — неправильно."
+]
+},
+{
+"id": "tenses-g121",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "She told me she ___ never ___ snow before her trip to Norway.",
+"options": [
+"had / seen",
+"has / seen",
+"did / see",
+"was / seeing"
+],
+"correct": [
+0
+],
+"translation_uk": "Вона сказала мені, що до поїздки в Норвегію ніколи не бачила снігу.",
+"rule": {
+"name": "Past Perfect + never ... before",
+"text_uk": "Досвід до певного моменту в минулому — had never + 3-я форма."
+},
+"explanations_uk": [
+"Правильно: had never seen.",
+"Present Perfect не пасує до минулого контексту.",
+"did never see — неправильно.",
+"was never seeing — неправильно."
+]
+},
+{
+"id": "tenses-g122",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "Next year my brother ___ 18.",
+"options": [
+"is",
+"will be",
+"was",
+"has been"
+],
+"correct": [
+1
+],
+"translation_uk": "Наступного року моєму братові виповниться 18.",
+"rule": {
+"name": "will — майбутні факти",
+"text_uk": "Факт, який станеться в майбутньому незалежно від нас — will."
+},
+"explanations_uk": [
+"is — зараз.",
+"Правильно: will be.",
+"was — минуле.",
+"has been — не про майбутнє."
+]
+},
+{
+"id": "tenses-g123",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "I ___ a shower when the water suddenly went cold.",
+"options": [
+"had",
+"was having",
+"have",
+"am having"
+],
+"correct": [
+1
+],
+"translation_uk": "Я приймав душ, коли раптом пішла холодна вода.",
+"rule": {
+"name": "Past Continuous + Past Simple",
+"text_uk": "Тривала дія + раптова подія."
+},
+"explanations_uk": [
+"had — не показує процес.",
+"Правильно: was having.",
+"have — теперішній час.",
+"am having — теперішній час."
+]
+},
+{
+"id": "tenses-g124",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "A: Are you coming to the party? B: I don't know. I ___ about it.",
+"options": [
+"think",
+"am thinking",
+"thought",
+"have thought"
+],
+"correct": [
+1
+],
+"translation_uk": "А: Ти прийдеш на вечірку? Б: Не знаю. Я ще думаю про це.",
+"rule": {
+"name": "think: стан vs процес",
+"text_uk": "think = мати думку (Present Simple); think about = обмірковувати (може бути Continuous)."
+},
+"explanations_uk": [
+"I think about it — звичка, а тут процес зараз.",
+"Правильно: am thinking about it — обмірковую.",
+"thought — минуле.",
+"have thought — уже подумав, але ж ще не знаю."
+]
+},
+{
+"id": "tenses-g125",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "Grandpa ___ a lot of interesting stories when we visit him.",
+"options": [
+"tells",
+"is telling",
+"told",
+"tell"
+],
+"correct": [
+0
+],
+"translation_uk": "Дідусь розповідає багато цікавих історій, коли ми його відвідуємо.",
+"rule": {
+"name": "Present Simple (повторювана ситуація)",
+"text_uk": "when we visit him — повторювана ситуація → Present Simple."
+},
+"explanations_uk": [
+"Правильно: tells.",
+"Present Continuous — зараз, а тут щоразу.",
+"told — минуле.",
+"Бракує -s для he."
+]
+},
+{
+"id": "tenses-g126",
+"source": "generated",
+"category": "tenses",
+"prompt": "Jak powiesz po angielsku: „Czekam na autobus od 20 minut.”?",
+"text": "",
+"options": [
+"I wait for the bus for 20 minutes.",
+"I am waiting for the bus since 20 minutes.",
+"I have been waiting for the bus for 20 minutes.",
+"I waited for the bus since 20 minutes."
+],
+"correct": [
+2
+],
+"translation_uk": "Я чекаю на автобус уже 20 хвилин.",
+"rule": {
+"name": "Present Perfect Continuous + for",
+"text_uk": "Польське «czekam od 20 minut» = have been waiting for 20 minutes."
+},
+"explanations_uk": [
+"Present Simple — типова помилка (калька з польської).",
+"Present Continuous + since — помилка; since потребує моменту.",
+"Правильно.",
+"Past Simple + since — неправильно."
+]
+},
+{
+"id": "tenses-g127",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "Nobody ___ what happened to the missing painting.",
+"options": [
+"knows",
+"know",
+"is knowing",
+"are knowing"
+],
+"correct": [
+0
+],
+"translation_uk": "Ніхто не знає, що сталося з зниклою картиною.",
+"rule": {
+"name": "nobody/everybody + дієслово в однині",
+"text_uk": "nobody, everybody, somebody — однина: knows; know — дієслово стану."
+},
+"explanations_uk": [
+"Правильно: nobody knows.",
+"nobody — однина, потрібне -s.",
+"know не вживаємо в Continuous.",
+"are — множина і Continuous."
+]
+},
+{
+"id": "tenses-g128",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "The museum ___ at 10 a.m. tomorrow, so we can't go earlier.",
+"options": [
+"opens",
+"opened",
+"has opened",
+"is open yesterday"
+],
+"correct": [
+0
+],
+"translation_uk": "Музей відкривається завтра о 10:00, тож раніше ми піти не можемо.",
+"rule": {
+"name": "Present Simple для розкладів",
+"text_uk": "Години роботи, розклади — Present Simple, навіть про завтра."
+},
+"explanations_uk": [
+"Правильно: opens.",
+"opened — минуле.",
+"has opened — вже відкрився.",
+"Неправильне поєднання часу."
+]
+},
+{
+"id": "tenses-g129",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "I ___ English for six years and I still make mistakes!",
+"options": [
+"learn",
+"have been learning",
+"am learning since",
+"learnt"
+],
+"correct": [
+1
+],
+"translation_uk": "Я вивчаю англійську шість років і досі роблю помилки!",
+"rule": {
+"name": "Present Perfect Continuous + for",
+"text_uk": "for six years + дія триває → have been + -ing."
+},
+"explanations_uk": [
+"Present Simple + for — помилка.",
+"Правильно.",
+"since потребує моменту, і Present Continuous тут неправильний.",
+"Past Simple — означало б, що вже не вчиш."
+]
+},
+{
+"id": "tenses-g130",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "___ she ___ to the radio when you called?",
+"options": [
+"Was / listening",
+"Did / listen",
+"Is / listening",
+"Has / listened"
+],
+"correct": [
+0
+],
+"translation_uk": "Вона слухала радіо, коли ти подзвонив?",
+"rule": {
+"name": "Past Continuous — питання",
+"text_uk": "Was/Were + підмет + -ing? — дія в процесі в момент минулої події."
+},
+"explanations_uk": [
+"Правильно: Was she listening?",
+"Did she listen — менш точно для дії в процесі.",
+"Is — теперішній час.",
+"Present Perfect не пасує до when you called."
+]
+},
+{
+"id": "tenses-g131",
+"source": "generated",
+"category": "tenses",
+"prompt": "Past simple (II forma) czasownika „catch” to:",
+"text": "",
+"options": [
+"catched",
+"caught",
+"cought",
+"catch"
+],
+"correct": [
+1
+],
+"translation_uk": "Друга форма дієслова catch (ловити):",
+"rule": {
+"name": "Неправильні дієслова",
+"text_uk": "catch – caught – caught; teach – taught – taught."
+},
+"explanations_uk": [
+"catch — неправильне, -ed не додаємо.",
+"Правильно: caught.",
+"Неправильне написання.",
+"catch — базова форма."
+]
+},
+{
+"id": "tenses-g132",
+"source": "generated",
+"category": "tenses",
+"prompt": "Zaznacz poprawne pary: bezokolicznik – past participle.",
+"text": "",
+"options": [
+"take – taken",
+"fall – fell",
+"drive – driven",
+"forget – forgot"
+],
+"correct": [
+0,
+2
+],
+"translation_uk": "Позначте правильні пари: інфінітив – 3-я форма.",
+"rule": {
+"name": "Неправильні дієслова",
+"text_uk": "take–took–taken; fall–fell–fallen; drive–drove–driven; forget–forgot–forgotten."
+},
+"explanations_uk": [
+"Правильно: taken.",
+"fell — 2-а форма; 3-я — fallen.",
+"Правильно: driven.",
+"forgot — 2-а форма; 3-я — forgotten."
+]
+},
+{
+"id": "tenses-g133",
+"source": "generated",
+"category": "tenses",
+"prompt": "Uzupełnij lukę.",
+"text": "I'm so excited! We ___ to Disneyland next week!",
+"options": [
+"go",
+"are going",
+"went",
+"have been"
+],
+"correct": [
+1
+],
+"translation_uk": "Я така схвильована! Наступного тижня ми їдемо в Діснейленд!",
+"rule": {
+"name": "Present Continuous — плани",
+"text_uk": "Конкретний план на майбутнє — Present Continuous."
+},
+"explanations_uk": [
+"Present Simple — розклади, а не особисті плани.",
+"Правильно: are going.",
+"went — минуле.",
+"have been — уже були."
+]
+}
+]

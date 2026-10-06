@@ -1,0 +1,1895 @@
+[
+{
+"id": "phr-g001",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "I usually ___ at 7 o'clock on school days.",
+"options": [
+"get up",
+"get on",
+"get off",
+"get over"
+],
+"correct": [
+0
+],
+"translation_uk": "У шкільні дні я зазвичай встаю о 7-й.",
+"rule": {
+"name": "Phrasal verbs з get",
+"text_uk": "get up — вставати; get on/off — сідати/виходити (з транспорту); get over — одужати, пережити."
+},
+"explanations_uk": [
+"Правильно: get up — вставати.",
+"get on — сідати в автобус / ладнати.",
+"get off — виходити з транспорту.",
+"get over — оговтатися."
+]
+},
+{
+"id": "phr-g002",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "It's dark in here. Can you ___ the light?",
+"options": [
+"turn on",
+"turn off",
+"turn up",
+"turn down"
+],
+"correct": [
+0
+],
+"translation_uk": "Тут темно. Можеш увімкнути світло?",
+"rule": {
+"name": "turn on / off / up / down",
+"text_uk": "turn on — увімкнути; turn off — вимкнути; turn up — гучніше; turn down — тихіше / відхилити."
+},
+"explanations_uk": [
+"Правильно: turn on.",
+"turn off — вимкнути, нелогічно.",
+"turn up — зробити гучніше.",
+"turn down — зробити тихіше."
+]
+},
+{
+"id": "phr-g003",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "The music is too loud. Please ___ it ___.",
+"options": [
+"turn / down",
+"turn / up",
+"turn / on",
+"turn / over"
+],
+"correct": [
+0
+],
+"translation_uk": "Музика надто гучна. Будь ласка, зроби тихіше.",
+"rule": {
+"name": "turn down",
+"text_uk": "turn something down — зменшити гучність."
+},
+"explanations_uk": [
+"Правильно: turn it down.",
+"turn up — гучніше, нелогічно.",
+"turn on — увімкнути, а вона вже грає.",
+"turn over — перевернути."
+]
+},
+{
+"id": "phr-g004",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "Please ___ your shoes before you come in.",
+"options": [
+"take off",
+"take on",
+"take up",
+"take after"
+],
+"correct": [
+0
+],
+"translation_uk": "Будь ласка, зніми взуття, перш ніж увійти.",
+"rule": {
+"name": "take off",
+"text_uk": "take off — зняти (одяг); злітати (літак)."
+},
+"explanations_uk": [
+"Правильно: take off.",
+"take on — взяти на себе.",
+"take up — почати займатися.",
+"take after — бути схожим."
+]
+},
+{
+"id": "phr-g005",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "Can you ___ my cat while I'm on holiday?",
+"options": [
+"look after",
+"look for",
+"look up",
+"look at"
+],
+"correct": [
+0
+],
+"translation_uk": "Можеш доглянути за моїм котом, поки я у відпустці?",
+"rule": {
+"name": "look after",
+"text_uk": "look after — доглядати, піклуватися."
+},
+"explanations_uk": [
+"Правильно: look after.",
+"look for — шукати.",
+"look up — шукати в словнику.",
+"look at — дивитися на."
+]
+},
+{
+"id": "phr-g006",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "I'm ___ to the summer holidays!",
+"options": [
+"looking forward",
+"looking after",
+"looking for",
+"looking up"
+],
+"correct": [
+0
+],
+"translation_uk": "Я з нетерпінням чекаю літніх канікул!",
+"rule": {
+"name": "look forward to",
+"text_uk": "look forward to + іменник/-ing — з нетерпінням чекати."
+},
+"explanations_uk": [
+"Правильно: looking forward to.",
+"looking after — доглядати.",
+"looking for — шукати.",
+"looking up — шукати в словнику."
+]
+},
+{
+"id": "phr-g007",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "Smoking is bad for you. You should ___ it ___.",
+"options": [
+"give / up",
+"give / in",
+"give / out",
+"give / back"
+],
+"correct": [
+0
+],
+"translation_uk": "Куріння шкідливе. Тобі варто кинути.",
+"rule": {
+"name": "give up",
+"text_uk": "give up (sth) — кинути (звичку), припинити."
+},
+"explanations_uk": [
+"Правильно: give it up.",
+"give in — поступитися.",
+"give out — роздавати.",
+"give back — повернути."
+]
+},
+{
+"id": "phr-g008",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "Can you ___ me ___ from school at 3 o'clock?",
+"options": [
+"pick / up",
+"pick / out",
+"pick / on",
+"pick / off"
+],
+"correct": [
+0
+],
+"translation_uk": "Можеш забрати мене зі школи о 15:00?",
+"rule": {
+"name": "pick up",
+"text_uk": "pick up — забрати когось (машиною); підняти з підлоги."
+},
+"explanations_uk": [
+"Правильно: pick me up.",
+"pick out — вибрати.",
+"pick on — чіплятися до когось.",
+"pick off — зірвати."
+]
+},
+{
+"id": "phr-g009",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "I need to ___ what time the film starts.",
+"options": [
+"find out",
+"find in",
+"look out",
+"work in"
+],
+"correct": [
+0
+],
+"translation_uk": "Мені треба дізнатися, о котрій починається фільм.",
+"rule": {
+"name": "find out",
+"text_uk": "find out — дізнатися, з'ясувати."
+},
+"explanations_uk": [
+"Правильно: find out.",
+"find in — неправильно.",
+"look out — обережно!",
+"work in — неправильно."
+]
+},
+{
+"id": "phr-g010",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "Our car ___ on the motorway, so we called for help.",
+"options": [
+"broke down",
+"broke up",
+"broke out",
+"broke in"
+],
+"correct": [
+0
+],
+"translation_uk": "Наша машина зламалася на автостраді, тож ми викликали допомогу.",
+"rule": {
+"name": "break down / up / out / in",
+"text_uk": "break down — зламатися (машина); break up — розійтися; break out — спалахнути; break in — вдертися."
+},
+"explanations_uk": [
+"Правильно: broke down.",
+"break up — розійтися (пара).",
+"break out — спалахнути (пожежа, війна).",
+"break in — вдертися."
+]
+},
+{
+"id": "phr-g011",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "Tom and Kate ___ last month. They're not together any more.",
+"options": [
+"broke up",
+"broke down",
+"made up",
+"got on"
+],
+"correct": [
+0
+],
+"translation_uk": "Том і Кейт розійшлися минулого місяця. Вони більше не разом.",
+"rule": {
+"name": "break up",
+"text_uk": "break up (with sb) — розійтися, розірвати стосунки."
+},
+"explanations_uk": [
+"Правильно: broke up.",
+"broke down — зламалися (про машину) / розплакалися.",
+"made up — помирилися (протилежне).",
+"got on — ладнали."
+]
+},
+{
+"id": "phr-g012",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "They had an argument, but they ___ the next day.",
+"options": [
+"made up",
+"made out",
+"broke up",
+"fell out"
+],
+"correct": [
+0
+],
+"translation_uk": "Вони посварилися, але наступного дня помирилися.",
+"rule": {
+"name": "make up",
+"text_uk": "make up — помиритися; також вигадати (make up a story)."
+},
+"explanations_uk": [
+"Правильно: made up.",
+"make out — розгледіти, розібрати.",
+"broke up — розійшлися.",
+"fell out — посварилися (а вони вже посварилися)."
+]
+},
+{
+"id": "phr-g013",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "That's not true! You ___ that story ___!",
+"options": [
+"made / up",
+"made / out",
+"took / up",
+"put / up"
+],
+"correct": [
+0
+],
+"translation_uk": "Це неправда! Ти вигадав цю історію!",
+"rule": {
+"name": "make up — вигадати",
+"text_uk": "make up a story / an excuse — вигадати."
+},
+"explanations_uk": [
+"Правильно: made it up.",
+"make out — розгледіти.",
+"take up — почати займатися.",
+"put up — поселити / повісити."
+]
+},
+{
+"id": "phr-g014",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "Please ___ this form with your name and address.",
+"options": [
+"fill in",
+"fill up",
+"fill on",
+"fill at"
+],
+"correct": [
+0
+],
+"translation_uk": "Будь ласка, заповніть цю форму своїм ім'ям та адресою.",
+"rule": {
+"name": "fill in",
+"text_uk": "fill in (a form) — заповнити бланк; fill up — заповнити вщерть (бак)."
+},
+"explanations_uk": [
+"Правильно: fill in.",
+"fill up — наповнити (бак, склянку).",
+"fill on — неправильно.",
+"fill at — неправильно."
+]
+},
+{
+"id": "phr-g015",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "The match was ___ because of the storm.",
+"options": [
+"called off",
+"called up",
+"called back",
+"called in"
+],
+"correct": [
+0
+],
+"translation_uk": "Матч скасували через шторм.",
+"rule": {
+"name": "call off",
+"text_uk": "call off — скасувати."
+},
+"explanations_uk": [
+"Правильно: called off.",
+"call up — зателефонувати / призвати.",
+"call back — передзвонити.",
+"call in — заскочити, викликати."
+]
+},
+{
+"id": "phr-g016",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "I'm busy now. Can I ___ you ___ later?",
+"options": [
+"call / back",
+"call / off",
+"call / out",
+"call / on"
+],
+"correct": [
+0
+],
+"translation_uk": "Я зараз зайнятий. Можна я тобі передзвоню пізніше?",
+"rule": {
+"name": "call back",
+"text_uk": "call (sb) back — передзвонити."
+},
+"explanations_uk": [
+"Правильно: call you back.",
+"call off — скасувати.",
+"call out — вигукнути.",
+"call on — відвідати."
+]
+},
+{
+"id": "phr-g017",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "Can I ___ these jeans? Where's the changing room?",
+"options": [
+"try on",
+"try out",
+"put up",
+"take in"
+],
+"correct": [
+0
+],
+"translation_uk": "Можна приміряти ці джинси? Де примірочна?",
+"rule": {
+"name": "try on",
+"text_uk": "try on — приміряти (одяг); try out — випробувати."
+},
+"explanations_uk": [
+"Правильно: try on.",
+"try out — випробувати (машину, метод).",
+"put up — повісити.",
+"take in — ушити / зрозуміти."
+]
+},
+{
+"id": "phr-g018",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "I ___ in a small village, but now I live in Warsaw.",
+"options": [
+"grew up",
+"grew out",
+"brought up",
+"got up"
+],
+"correct": [
+0
+],
+"translation_uk": "Я виріс у маленькому селі, а тепер живу у Варшаві.",
+"rule": {
+"name": "grow up vs bring up",
+"text_uk": "grow up — вирости (сам); bring up — виховувати (когось)."
+},
+"explanations_uk": [
+"Правильно: grew up.",
+"grow out of — вирости з (одягу).",
+"brought up — виховав когось (потрібен додаток).",
+"got up — встав."
+]
+},
+{
+"id": "phr-g019",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "She was ___ by her grandparents.",
+"options": [
+"brought up",
+"grown up",
+"taken up",
+"put up"
+],
+"correct": [
+0
+],
+"translation_uk": "Її виховували бабуся й дідусь.",
+"rule": {
+"name": "bring up",
+"text_uk": "bring up (a child) — виховувати; be brought up — бути вихованим."
+},
+"explanations_uk": [
+"Правильно: brought up.",
+"grow up не вживається в пасиві.",
+"taken up — почати займатися.",
+"put up — поселити."
+]
+},
+{
+"id": "phr-g020",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "We ___ early in the morning to avoid the traffic.",
+"options": [
+"set off",
+"set up",
+"set in",
+"set down"
+],
+"correct": [
+0
+],
+"translation_uk": "Ми вирушили рано-вранці, щоб уникнути заторів.",
+"rule": {
+"name": "set off",
+"text_uk": "set off — вирушати в дорогу; set up — засновувати, налаштовувати."
+},
+"explanations_uk": [
+"Правильно: set off.",
+"set up — заснувати, встановити.",
+"set in — почати (про погоду).",
+"set down — поставити."
+]
+},
+{
+"id": "phr-g021",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "Don't stop! ___ reading.",
+"options": [
+"Carry on",
+"Carry out",
+"Carry off",
+"Carry up"
+],
+"correct": [
+0
+],
+"translation_uk": "Не зупиняйся! Читай далі.",
+"rule": {
+"name": "carry on / go on",
+"text_uk": "carry on (+ -ing) — продовжувати; carry out — виконувати (план, дослідження)."
+},
+"explanations_uk": [
+"Правильно: Carry on.",
+"carry out — виконати (експеримент).",
+"carry off — забрати.",
+"carry up — занести нагору."
+]
+},
+{
+"id": "phr-g022",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "Scientists ___ an experiment to test the new medicine.",
+"options": [
+"carried out",
+"carried on",
+"carried away",
+"carried off"
+],
+"correct": [
+0
+],
+"translation_uk": "Науковці провели експеримент, щоб перевірити нові ліки.",
+"rule": {
+"name": "carry out",
+"text_uk": "carry out an experiment / research / a plan — провести, виконати."
+},
+"explanations_uk": [
+"Правильно: carried out.",
+"carry on — продовжувати.",
+"carried away — захопитися.",
+"carry off — забрати, винести."
+]
+},
+{
+"id": "phr-g023",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "Let's ___ the meeting until next week.",
+"options": [
+"put off",
+"put on",
+"put up",
+"put out"
+],
+"correct": [
+0
+],
+"translation_uk": "Давайте перенесемо зустріч на наступний тиждень.",
+"rule": {
+"name": "put off",
+"text_uk": "put off — відкласти; put out — загасити; put on — вдягнути."
+},
+"explanations_uk": [
+"Правильно: put off — відкласти.",
+"put on — вдягнути.",
+"put up — повісити / поселити.",
+"put out — загасити."
+]
+},
+{
+"id": "phr-g024",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "The firefighters quickly ___ the fire.",
+"options": [
+"put out",
+"put off",
+"put on",
+"put up"
+],
+"correct": [
+0
+],
+"translation_uk": "Пожежники швидко загасили вогонь.",
+"rule": {
+"name": "put out",
+"text_uk": "put out a fire / a cigarette — загасити."
+},
+"explanations_uk": [
+"Правильно: put out.",
+"put off — відкласти.",
+"put on — вдягнути.",
+"put up — підняти."
+]
+},
+{
+"id": "phr-g025",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "I ___ an old friend in the shopping centre yesterday.",
+"options": [
+"ran into",
+"ran out",
+"ran over",
+"ran after"
+],
+"correct": [
+0
+],
+"translation_uk": "Учора я випадково зустрів старого друга в торговому центрі.",
+"rule": {
+"name": "run into",
+"text_uk": "run into sb — випадково зустріти."
+},
+"explanations_uk": [
+"Правильно: ran into — випадково зустрів.",
+"run out (of) — закінчитися.",
+"run over — переїхати (машиною).",
+"run after — бігти за кимось."
+]
+},
+{
+"id": "phr-g026",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "I've had a bad cold, but I think I'm ___ it now.",
+"options": [
+"getting over",
+"getting on",
+"getting up",
+"getting off"
+],
+"correct": [
+0
+],
+"translation_uk": "У мене була сильна застуда, але, здається, я вже одужую.",
+"rule": {
+"name": "get over",
+"text_uk": "get over sth — одужати, оговтатися."
+},
+"explanations_uk": [
+"Правильно: getting over.",
+"get on — ладнати / сідати.",
+"get up — вставати.",
+"get off — виходити."
+]
+},
+{
+"id": "phr-g027",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "We need to ___ at the next stop.",
+"options": [
+"get off",
+"get on",
+"get over",
+"get by"
+],
+"correct": [
+0
+],
+"translation_uk": "Нам треба вийти на наступній зупинці.",
+"rule": {
+"name": "get on / get off",
+"text_uk": "get on (the bus) — сісти; get off (the bus) — вийти."
+},
+"explanations_uk": [
+"Правильно: get off.",
+"get on — сісти.",
+"get over — одужати.",
+"get by — давати собі раду."
+]
+},
+{
+"id": "phr-g028",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "I don't know this word. I'll ___ it ___ in the dictionary.",
+"options": [
+"look / up",
+"look / for",
+"look / after",
+"look / into"
+],
+"correct": [
+0
+],
+"translation_uk": "Я не знаю цього слова. Пошукаю його в словнику.",
+"rule": {
+"name": "look up",
+"text_uk": "look sth up — знайти інформацію в довіднику."
+},
+"explanations_uk": [
+"Правильно: look it up.",
+"look for — шукати (загублене).",
+"look after — доглядати.",
+"look into — розслідувати."
+]
+},
+{
+"id": "phr-g029",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "___! There's a car coming!",
+"options": [
+"Look out",
+"Look up",
+"Look after",
+"Look for"
+],
+"correct": [
+0
+],
+"translation_uk": "Обережно! Їде машина!",
+"rule": {
+"name": "Look out! / Watch out!",
+"text_uk": "Look out! — Обережно!"
+},
+"explanations_uk": [
+"Правильно: Look out!",
+"Look up — подивися вгору / пошукай.",
+"Look after — доглядай.",
+"Look for — шукай."
+]
+},
+{
+"id": "phr-g030",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "Can you ___ for my little sister for an hour?",
+"options": [
+"look out",
+"look in",
+"look on",
+"look up"
+],
+"correct": [
+0
+],
+"translation_uk": "Можеш наглянути за моєю молодшою сестрою годину?",
+"rule": {
+"name": "look out for",
+"text_uk": "look out for sb — наглядати, пильнувати когось."
+},
+"explanations_uk": [
+"Правильно: look out for — наглядати.",
+"look in — заглянути.",
+"look on — спостерігати збоку (не допомагаючи).",
+"look up — шукати в довіднику."
+]
+},
+{
+"id": "phr-g031",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "Could you ___ the rubbish, please?",
+"options": [
+"take out",
+"take off",
+"take after",
+"take over"
+],
+"correct": [
+0
+],
+"translation_uk": "Можеш винести сміття, будь ласка?",
+"rule": {
+"name": "take out",
+"text_uk": "take out the rubbish — винести сміття."
+},
+"explanations_uk": [
+"Правильно: take out.",
+"take off — зняти.",
+"take after — бути схожим.",
+"take over — взяти під контроль."
+]
+},
+{
+"id": "phr-g032",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "The plane ___ at 10 a.m.",
+"options": [
+"took off",
+"took up",
+"took out",
+"took in"
+],
+"correct": [
+0
+],
+"translation_uk": "Літак злетів о 10:00.",
+"rule": {
+"name": "take off — злітати",
+"text_uk": "take off — злітати (літак); land — приземлятися."
+},
+"explanations_uk": [
+"Правильно: took off.",
+"took up — почав займатися.",
+"took out — виніс.",
+"took in — прийняв / обдурив."
+]
+},
+{
+"id": "phr-g033",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "Don't ___ the phone! I haven't finished.",
+"options": [
+"hang up",
+"hang out",
+"hang on",
+"hang around"
+],
+"correct": [
+0
+],
+"translation_uk": "Не клади слухавку! Я ще не договорив.",
+"rule": {
+"name": "hang up / hang on / hang out",
+"text_uk": "hang up — покласти слухавку; hang on — зачекати; hang out — проводити час."
+},
+"explanations_uk": [
+"Правильно: hang up.",
+"hang out — тусуватися.",
+"hang on — зачекати («Hang on!»).",
+"hang around — вештатися."
+]
+},
+{
+"id": "phr-g034",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "___ a minute! I'm coming.",
+"options": [
+"Hang on",
+"Hang up",
+"Hang out",
+"Hang off"
+],
+"correct": [
+0
+],
+"translation_uk": "Зачекай хвилинку! Я йду.",
+"rule": {
+"name": "hang on",
+"text_uk": "Hang on (a minute)! — зачекай."
+},
+"explanations_uk": [
+"Правильно: Hang on.",
+"Hang up — поклади слухавку.",
+"Hang out — тусуйся.",
+"Hang off — неправильно."
+]
+},
+{
+"id": "phr-g035",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "I'm trying to ___ on sugar. It's bad for my teeth.",
+"options": [
+"cut down",
+"cut off",
+"cut out of",
+"cut up"
+],
+"correct": [
+0
+],
+"translation_uk": "Я намагаюся менше їсти цукру. Він шкідливий для зубів.",
+"rule": {
+"name": "cut down on",
+"text_uk": "cut down on sth — скоротити споживання."
+},
+"explanations_uk": [
+"Правильно: cut down on.",
+"cut off — відрізати, відключити.",
+"cut out of — вирізати з.",
+"cut up — порізати."
+]
+},
+{
+"id": "phr-g036",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "We need to ___ these old clothes. We never wear them.",
+"options": [
+"get rid of",
+"get on with",
+"get over",
+"get away"
+],
+"correct": [
+0
+],
+"translation_uk": "Нам треба позбутися цього старого одягу. Ми його ніколи не носимо.",
+"rule": {
+"name": "get rid of",
+"text_uk": "get rid of sth — позбутися."
+},
+"explanations_uk": [
+"Правильно: get rid of.",
+"get on with — ладнати з / продовжувати.",
+"get over — одужати.",
+"get away — втекти."
+]
+},
+{
+"id": "phr-g037",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "Who is going to ___ the problem with the heating?",
+"options": [
+"deal with",
+"deal in",
+"deal out",
+"deal off"
+],
+"correct": [
+0
+],
+"translation_uk": "Хто розбереться з проблемою опалення?",
+"rule": {
+"name": "deal with",
+"text_uk": "deal with sth — впоратися, розібратися з."
+},
+"explanations_uk": [
+"Правильно: deal with.",
+"deal in — торгувати чимось.",
+"deal out — роздавати (карти).",
+"deal off — неправильно."
+]
+},
+{
+"id": "phr-g038",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "He's always ___ his new car. It's so annoying!",
+"options": [
+"showing off",
+"showing up",
+"showing in",
+"showing out"
+],
+"correct": [
+0
+],
+"translation_uk": "Він постійно хизується своєю новою машиною. Це так дратує!",
+"rule": {
+"name": "show off / show up",
+"text_uk": "show off — хизуватися; show up — з'явитися, прийти."
+},
+"explanations_uk": [
+"Правильно: showing off.",
+"show up — з'явитися.",
+"show in — провести всередину.",
+"show out — провести до виходу."
+]
+},
+{
+"id": "phr-g039",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "We waited for an hour, but he didn't ___",
+"options": [
+"turn up.",
+"turn on.",
+"turn down.",
+"turn over."
+],
+"correct": [
+0
+],
+"translation_uk": "Ми чекали годину, але він так і не з'явився.",
+"rule": {
+"name": "turn up = show up",
+"text_uk": "turn up / show up — з'явитися, прийти."
+},
+"explanations_uk": [
+"Правильно: didn't turn up.",
+"turn on — увімкнути.",
+"turn down — відмовити / зменшити.",
+"turn over — перевернути."
+]
+},
+{
+"id": "phr-g040",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "They offered him the job, but he ___ it ___.",
+"options": [
+"turned / down",
+"turned / up",
+"turned / on",
+"turned / in"
+],
+"correct": [
+0
+],
+"translation_uk": "Йому запропонували роботу, але він відмовився.",
+"rule": {
+"name": "turn down — відхилити",
+"text_uk": "turn down an offer / invitation — відхилити."
+},
+"explanations_uk": [
+"Правильно: turned it down.",
+"turned up — з'явився.",
+"turned on — увімкнув.",
+"turned in — здав / ліг спати."
+]
+},
+{
+"id": "phr-g041",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Co oznacza „It's a piece of cake”?",
+"text": "",
+"options": [
+"To bardzo łatwe.",
+"To bardzo smaczne.",
+"To kawałek tortu.",
+"To bardzo drogie."
+],
+"correct": [
+0
+],
+"translation_uk": "Що означає «It's a piece of cake»?",
+"rule": {
+"name": "Ідіома: a piece of cake",
+"text_uk": "a piece of cake — дуже легко, «простіше простого»."
+},
+"explanations_uk": [
+"Правильно: це дуже легко.",
+"Не про смак.",
+"Буквальний переклад — не ідіоматичне значення.",
+"Не про ціну."
+]
+},
+{
+"id": "phr-g042",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Co oznacza „I'm feeling under the weather”?",
+"text": "",
+"options": [
+"Źle się czuję.",
+"Jest mi zimno.",
+"Lubię deszcz.",
+"Jestem na dworze."
+],
+"correct": [
+0
+],
+"translation_uk": "Що означає «I'm feeling under the weather»?",
+"rule": {
+"name": "Ідіома: under the weather",
+"text_uk": "under the weather — нездужати, погано почуватися."
+},
+"explanations_uk": [
+"Правильно: погано почуваюся.",
+"Не про температуру.",
+"Не про погоду.",
+"Не про місце."
+]
+},
+{
+"id": "phr-g043",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Co oznacza „It's raining cats and dogs”?",
+"text": "",
+"options": [
+"Leje jak z cebra.",
+"Zwierzęta spadają z nieba.",
+"Pada lekki deszcz.",
+"Jest burza z gradem."
+],
+"correct": [
+0
+],
+"translation_uk": "Що означає «It's raining cats and dogs»?",
+"rule": {
+"name": "Ідіома: rain cats and dogs",
+"text_uk": "Дуже сильний дощ, «ллє як з відра»."
+},
+"explanations_uk": [
+"Правильно: дуже сильний дощ.",
+"Буквальне розуміння — неправильно.",
+"Навпаки — дощ сильний.",
+"Про град тут не йдеться."
+]
+},
+{
+"id": "phr-g044",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Co powiesz aktorowi przed występem, żeby życzyć mu powodzenia?",
+"text": "",
+"options": [
+"Break a leg!",
+"Hit the road!",
+"Break the ice!",
+"Get lost!"
+],
+"correct": [
+0
+],
+"translation_uk": "Що сказати актору перед виступом, щоб побажати успіху?",
+"rule": {
+"name": "Ідіома: Break a leg!",
+"text_uk": "Break a leg! — «Ні пуху, ні пера!» (побажання успіху, особливо в театрі)."
+},
+"explanations_uk": [
+"Правильно: Break a leg!",
+"Hit the road — вирушати в дорогу.",
+"Break the ice — розрядити атмосферу.",
+"Get lost! — Відчепись! (грубо)."
+]
+},
+{
+"id": "phr-g045",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Co oznacza „It costs an arm and a leg”?",
+"text": "",
+"options": [
+"To bardzo drogie.",
+"To niebezpieczne.",
+"To boli.",
+"To tanie."
+],
+"correct": [
+0
+],
+"translation_uk": "Що означає «It costs an arm and a leg»?",
+"rule": {
+"name": "Ідіома: cost an arm and a leg",
+"text_uk": "Коштує дуже дорого, «шалені гроші»."
+},
+"explanations_uk": [
+"Правильно: дуже дорого.",
+"Не про небезпеку.",
+"Не про біль.",
+"Навпаки."
+]
+},
+{
+"id": "phr-g046",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Co oznacza „once in a blue moon”?",
+"text": "",
+"options": [
+"bardzo rzadko",
+"co miesiąc",
+"w nocy",
+"bardzo często"
+],
+"correct": [
+0
+],
+"translation_uk": "Що означає «once in a blue moon»?",
+"rule": {
+"name": "Ідіома: once in a blue moon",
+"text_uk": "Дуже рідко, «раз на сто років»."
+},
+"explanations_uk": [
+"Правильно: дуже рідко.",
+"Не щомісяця.",
+"Не про ніч.",
+"Навпаки."
+]
+},
+{
+"id": "phr-g047",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Co oznacza „I have butterflies in my stomach”?",
+"text": "",
+"options": [
+"Denerwuję się.",
+"Boli mnie brzuch.",
+"Jestem głodny.",
+"Lubię motyle."
+],
+"correct": [
+0
+],
+"translation_uk": "Що означає «I have butterflies in my stomach»?",
+"rule": {
+"name": "Ідіома: butterflies in my stomach",
+"text_uk": "Хвилюватися перед чимось (метелики в животі)."
+},
+"explanations_uk": [
+"Правильно: хвилююся.",
+"Не про біль.",
+"Не про голод.",
+"Буквальне значення — неправильно."
+]
+},
+{
+"id": "phr-g048",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "Good luck in your exam! I'll keep my ___ crossed for you.",
+"options": [
+"fingers",
+"hands",
+"legs",
+"eyes"
+],
+"correct": [
+0
+],
+"translation_uk": "Удачі на іспиті! Я триматиму за тебе кулаки.",
+"rule": {
+"name": "Ідіома: keep your fingers crossed",
+"text_uk": "keep fingers crossed — тримати кулаки (польськ. trzymać kciuki)."
+},
+"explanations_uk": [
+"Правильно: fingers crossed.",
+"hands — неправильно.",
+"legs crossed — схрестити ноги, буквально.",
+"eyes — неправильно."
+]
+},
+{
+"id": "phr-g049",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Co oznacza „couch potato”?",
+"text": "",
+"options": [
+"leń, który ciągle ogląda telewizję",
+"rodzaj ziemniaka",
+"wygodna kanapa",
+"kucharz"
+],
+"correct": [
+0
+],
+"translation_uk": "Що означає «couch potato»?",
+"rule": {
+"name": "Ідіома: couch potato",
+"text_uk": "Ледар, який увесь час сидить на дивані перед телевізором."
+},
+"explanations_uk": [
+"Правильно.",
+"Буквальне значення — неправильно.",
+"Не про меблі.",
+"Не про професію."
+]
+},
+{
+"id": "phr-g050",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "I can't decide which jacket to buy. I can't make up my ___",
+"options": [
+"mind",
+"head",
+"brain",
+"thought"
+],
+"correct": [
+0
+],
+"translation_uk": "Не можу вирішити, яку куртку купити. Не можу визначитися.",
+"rule": {
+"name": "make up your mind",
+"text_uk": "make up your mind — вирішити, визначитися."
+},
+"explanations_uk": [
+"Правильно: make up my mind.",
+"head — неправильно.",
+"brain — неправильно.",
+"thought — неправильно."
+]
+},
+{
+"id": "phr-g051",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "You've worked hard all week. Take it ___ this weekend.",
+"options": [
+"easy",
+"slow",
+"light",
+"calm"
+],
+"correct": [
+0
+],
+"translation_uk": "Ти важко працював увесь тиждень. Розслабся на вихідних.",
+"rule": {
+"name": "take it easy",
+"text_uk": "take it easy — розслабитися, не перенапружуватися."
+},
+"explanations_uk": [
+"Правильно: take it easy.",
+"take it slow — не поспішати (інше).",
+"take it light — не вживається.",
+"take it calm — не вживається."
+]
+},
+{
+"id": "phr-g052",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Co oznacza „I'm on cloud nine”?",
+"text": "",
+"options": [
+"Jestem bardzo szczęśliwy.",
+"Jestem w samolocie.",
+"Jestem zmęczony.",
+"Jestem zdezorientowany."
+],
+"correct": [
+0
+],
+"translation_uk": "Що означає «I'm on cloud nine»?",
+"rule": {
+"name": "Ідіома: on cloud nine / over the moon",
+"text_uk": "Бути на сьомому небі від щастя."
+},
+"explanations_uk": [
+"Правильно: дуже щасливий.",
+"Буквальне значення — неправильно.",
+"Не про втому.",
+"Не про розгубленість."
+]
+},
+{
+"id": "phr-g053",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Co oznacza „to let the cat out of the bag”?",
+"text": "",
+"options": [
+"wygadać sekret",
+"wypuścić kota",
+"zrobić zakupy",
+"zgubić coś"
+],
+"correct": [
+0
+],
+"translation_uk": "Що означає «let the cat out of the bag»?",
+"rule": {
+"name": "Ідіома: let the cat out of the bag",
+"text_uk": "Ненавмисно розкрити таємницю, «проговоритися»."
+},
+"explanations_uk": [
+"Правильно: розкрити таємницю.",
+"Буквальне значення — неправильно.",
+"Не про покупки.",
+"Не про втрату."
+]
+},
+{
+"id": "phr-g054",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Które wyrażenia oznaczają, że ktoś jest bardzo szczęśliwy?",
+"text": "",
+"options": [
+"over the moon",
+"on cloud nine",
+"down in the dumps",
+"under the weather"
+],
+"correct": [
+0,
+1
+],
+"translation_uk": "Які вирази означають, що хтось дуже щасливий?",
+"rule": {
+"name": "Ідіоми емоцій",
+"text_uk": "over the moon, on cloud nine — дуже щасливий; down in the dumps — пригнічений; under the weather — хворий."
+},
+"explanations_uk": [
+"Правильно: over the moon.",
+"Правильно: on cloud nine.",
+"down in the dumps — сумний, пригнічений.",
+"under the weather — нездужати."
+]
+},
+{
+"id": "phr-g055",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "I have a test tomorrow, so tonight I need to hit the ___",
+"options": [
+"books",
+"table",
+"road",
+"sack"
+],
+"correct": [
+0
+],
+"translation_uk": "Завтра в мене тест, тому сьогодні ввечері треба засісти за книжки.",
+"rule": {
+"name": "Ідіома: hit the books",
+"text_uk": "hit the books — сісти за навчання; hit the road — вирушити; hit the sack — лягти спати."
+},
+"explanations_uk": [
+"Правильно: hit the books — вчитися.",
+"hit the table — буквально вдарити стіл.",
+"hit the road — вирушити в дорогу.",
+"hit the sack — лягти спати."
+]
+},
+{
+"id": "phr-g056",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "I'm so tired. I'm going to hit the ___",
+"options": [
+"sack",
+"books",
+"road",
+"roof"
+],
+"correct": [
+0
+],
+"translation_uk": "Я такий втомлений. Піду спати.",
+"rule": {
+"name": "Ідіома: hit the sack / hit the hay",
+"text_uk": "Лягти спати."
+},
+"explanations_uk": [
+"Правильно: hit the sack.",
+"hit the books — вчитися.",
+"hit the road — вирушити.",
+"hit the roof — розлютитися."
+]
+},
+{
+"id": "phr-g057",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "I ___ some old photos when I was tidying my room.",
+"options": [
+"came across",
+"came up",
+"came off",
+"came back"
+],
+"correct": [
+0
+],
+"translation_uk": "Прибираючи кімнату, я натрапив на старі фотографії.",
+"rule": {
+"name": "come across",
+"text_uk": "come across sth — випадково натрапити."
+},
+"explanations_uk": [
+"Правильно: came across.",
+"come up — виникнути (проблема), підійти.",
+"come off — відпасти, відклеїтися.",
+"come back — повернутися."
+]
+},
+{
+"id": "phr-g058",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "When are you ___ from your holiday?",
+"options": [
+"coming back",
+"coming across",
+"coming up",
+"coming off"
+],
+"correct": [
+0
+],
+"translation_uk": "Коли ти повертаєшся з відпустки?",
+"rule": {
+"name": "come back",
+"text_uk": "come back — повертатися."
+},
+"explanations_uk": [
+"Правильно: coming back.",
+"come across — натрапити.",
+"come up — виникнути.",
+"come off — відпасти."
+]
+},
+{
+"id": "phr-g059",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "I ___ at 7 a.m. but I didn't get out of bed until 7:30.",
+"options": [
+"woke up",
+"got up",
+"stood up",
+"went up"
+],
+"correct": [
+0
+],
+"translation_uk": "Я прокинувся о 7-й, але встав з ліжка лише о 7:30.",
+"rule": {
+"name": "wake up vs get up",
+"text_uk": "wake up — прокинутися; get up — встати з ліжка."
+},
+"explanations_uk": [
+"Правильно: woke up — прокинувся.",
+"got up — встав, але речення каже, що встав пізніше.",
+"stood up — підвівся (на ноги).",
+"went up — пішов нагору."
+]
+},
+{
+"id": "phr-g060",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "I don't ___ well with my neighbour. We often argue.",
+"options": [
+"get on",
+"get off",
+"get up",
+"get in"
+],
+"correct": [
+0
+],
+"translation_uk": "Я не дуже ладнаю із сусідом. Ми часто сперечаємося.",
+"rule": {
+"name": "get on (well) with",
+"text_uk": "get on with sb — ладнати."
+},
+"explanations_uk": [
+"Правильно: get on.",
+"get off — виходити.",
+"get up — вставати.",
+"get in — заходити."
+]
+},
+{
+"id": "phr-g061",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "Can you ___ my bag for a moment? I need to tie my shoe.",
+"options": [
+"hold on to",
+"hold up",
+"hold off",
+"hold back"
+],
+"correct": [
+0
+],
+"translation_uk": "Можеш потримати мою сумку хвилинку? Мені треба зав'язати шнурок.",
+"rule": {
+"name": "hold on to",
+"text_uk": "hold on to sth — тримати, не відпускати."
+},
+"explanations_uk": [
+"Правильно: hold on to.",
+"hold up — затримувати / пограбувати.",
+"hold off — відкладати.",
+"hold back — стримувати."
+]
+},
+{
+"id": "phr-g062",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "I can't ___ what this word says. The handwriting is terrible.",
+"options": [
+"make out",
+"make up",
+"make off",
+"make for"
+],
+"correct": [
+0
+],
+"translation_uk": "Не можу розібрати, що тут написано. Жахливий почерк.",
+"rule": {
+"name": "make out",
+"text_uk": "make out — розібрати, розгледіти."
+},
+"explanations_uk": [
+"Правильно: make out.",
+"make up — вигадати / помиритися.",
+"make off — втекти.",
+"make for — прямувати до."
+]
+},
+{
+"id": "phr-g063",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "Please ___ your toys. Your room is a mess!",
+"options": [
+"put away",
+"put off",
+"put out",
+"put on"
+],
+"correct": [
+0
+],
+"translation_uk": "Будь ласка, прибери іграшки. У твоїй кімнаті безлад!",
+"rule": {
+"name": "put away",
+"text_uk": "put away — прибрати на місце."
+},
+"explanations_uk": [
+"Правильно: put away.",
+"put off — відкласти.",
+"put out — загасити.",
+"put on — вдягнути."
+]
+},
+{
+"id": "phr-g064",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "Do you want to ___ tonight? We could go to the cinema.",
+"options": [
+"go out",
+"go off",
+"go over",
+"go by"
+],
+"correct": [
+0
+],
+"translation_uk": "Хочеш кудись піти сьогодні ввечері? Можемо сходити в кіно.",
+"rule": {
+"name": "go out",
+"text_uk": "go out — виходити (розважатися)."
+},
+"explanations_uk": [
+"Правильно: go out.",
+"go off — спрацювати (будильник), зіпсуватися.",
+"go over — переглянути.",
+"go by — минати (час)."
+]
+},
+{
+"id": "phr-g065",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "My alarm clock didn't ___ this morning, so I was late.",
+"options": [
+"go off",
+"go out",
+"go on",
+"go up"
+],
+"correct": [
+0
+],
+"translation_uk": "Мій будильник сьогодні вранці не задзвонив, тому я запізнився.",
+"rule": {
+"name": "go off — спрацювати",
+"text_uk": "go off — задзвонити (будильник), вибухнути; також зіпсуватися (молоко)."
+},
+"explanations_uk": [
+"Правильно: didn't go off.",
+"go out — вийти / згаснути.",
+"go on — продовжуватися.",
+"go up — зростати."
+]
+},
+{
+"id": "phr-g066",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Które czasowniki frazowe oznaczają „kontynuować”?",
+"text": "",
+"options": [
+"carry on",
+"go on",
+"keep on",
+"give up"
+],
+"correct": [
+0,
+1,
+2
+],
+"translation_uk": "Які фразові дієслова означають «продовжувати»?",
+"rule": {
+"name": "Продовжувати",
+"text_uk": "carry on, go on, keep on (+ -ing) — продовжувати; give up — кинути."
+},
+"explanations_uk": [
+"Правильно: carry on.",
+"Правильно: go on.",
+"Правильно: keep on.",
+"give up — здатися, кинути (протилежне)."
+]
+},
+{
+"id": "phr-g067",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "I'm going to ___ my homework before dinner.",
+"options": [
+"get on with",
+"get over",
+"get rid of",
+"get away with"
+],
+"correct": [
+0
+],
+"translation_uk": "Я візьмуся за домашнє завдання перед вечерею.",
+"rule": {
+"name": "get on with",
+"text_uk": "get on with sth — взятися за щось / продовжувати роботу."
+},
+"explanations_uk": [
+"Правильно: get on with.",
+"get over — одужати.",
+"get rid of — позбутися.",
+"get away with — уникнути покарання."
+]
+},
+{
+"id": "phr-g068",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "The teacher ___ the test papers at the start of the lesson.",
+"options": [
+"handed out",
+"handed in",
+"handed down",
+"handed over"
+],
+"correct": [
+0
+],
+"translation_uk": "Учитель роздав тести на початку уроку.",
+"rule": {
+"name": "hand out vs hand in",
+"text_uk": "hand out — роздати; hand in — здати."
+},
+"explanations_uk": [
+"Правильно: handed out — роздав.",
+"handed in — здав (так роблять учні).",
+"handed down — передав у спадок.",
+"handed over — передав (владу, ключі)."
+]
+},
+{
+"id": "phr-g069",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Co oznacza „to see eye to eye with someone”?",
+"text": "",
+"options": [
+"zgadzać się z kimś",
+"patrzeć komuś w oczy",
+"nie widzieć kogoś",
+"być zazdrosnym"
+],
+"correct": [
+0
+],
+"translation_uk": "Що означає «see eye to eye with someone»?",
+"rule": {
+"name": "Ідіома: see eye to eye",
+"text_uk": "see eye to eye — мати однакову думку, погоджуватися."
+},
+"explanations_uk": [
+"Правильно: погоджуватися.",
+"Буквальне значення — неправильно.",
+"Неправильно.",
+"Не про заздрість."
+]
+},
+{
+"id": "phr-g070",
+"source": "generated",
+"category": "phrasal_idioms",
+"prompt": "Uzupełnij lukę.",
+"text": "I don't feel well. I think I'm ___ with a cold.",
+"options": [
+"coming down",
+"coming up",
+"coming over",
+"coming in"
+],
+"correct": [
+0
+],
+"translation_uk": "Я погано почуваюся. Здається, у мене починається застуда.",
+"rule": {
+"name": "come down with",
+"text_uk": "come down with (a cold/flu) — захворіти на."
+},
+"explanations_uk": [
+"Правильно: coming down with.",
+"come up with — придумати.",
+"come over — заскочити в гості.",
+"come in — увійти."
+]
+}
+]

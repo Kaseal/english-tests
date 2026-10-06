@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Angielski – klasa 8</title>
+<style>
+  :root {
+    --text: #1d1d1f; --muted: #6e6e73; --line: #e3e3e6; --bg: #fff; --soft: #f6f6f7;
+    --accent: #1d1d1f;
+    --red: #c62828; --red-bg: #fdecec;
+    --yellow: #a66a00; --yellow-bg: #fff6e0;
+    --green: #2e7d32; --green-bg: #eaf6eb;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--text); }
+  body { font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 26px; font-weight: 600; margin: 32px 0 8px; }
+  h2 { font-size: 18px; font-weight: 600; margin: 32px 0 12px; }
+  p { margin: 8px 0; }
+  .muted { color: var(--muted); }
+  .hidden { display: none !important; }
+  button {
+    font: inherit; font-weight: 500; padding: 12px 22px; border-radius: 8px; cursor: pointer;
+    background: var(--accent); color: #fff; border: 1px solid var(--accent);
+  }
+  button.secondary { background: #fff; color: var(--text); border-color: var(--line); }
+  button:hover { opacity: .88; }
+  ul.rules { padding-left: 20px; color: var(--muted); }
+
+  .bar {
+    position: sticky; top: 0; z-index: 5; background: rgba(255,255,255,.96);
+    border-bottom: 1px solid var(--line); margin: 0 -16px 8px; padding: 10px 16px;
+    display: flex; justify-content: space-between; align-items: center; gap: 12px;
+  }
+  .timer { font-variant-numeric: tabular-nums; font-weight: 600; font-size: 18px; }
+  .timer.low { color: var(--red); }
+  .progress { color: var(--muted); font-size: 14px; }
+
+  .q { border-top: 1px solid var(--line); padding: 20px 0; }
+  .q-head { display: flex; gap: 10px; }
+  .q-num { color: var(--muted); font-variant-numeric: tabular-nums; min-width: 26px; }
+  .q-prompt { color: var(--muted); font-size: 14px; }
+  .q-text { font-weight: 500; margin-top: 2px; white-space: pre-line; }
+  .opts { list-style: none; padding: 0; margin: 12px 0 0 36px; display: grid; gap: 6px; }
+  .opts label {
+    display: flex; gap: 10px; align-items: flex-start; padding: 8px 12px; border: 1px solid var(--line);
+    border-radius: 8px; cursor: pointer;
+  }
+  .opts label:hover { background: var(--soft); }
+  .opts input { margin-top: 4px; width: 16px; height: 16px; accent-color: var(--accent); flex: none; }
+  .opts label.checked { border-color: var(--accent); }
+  .letter { color: var(--muted); min-width: 16px; }
+  .actions { margin-top: 28px; display: flex; gap: 12px; flex-wrap: wrap; }
+
+  .score { margin-top: 24px; padding: 24px; border-radius: 12px; text-align: center; }
+  .score .big { font-size: 44px; font-weight: 600; line-height: 1.1; font-variant-numeric: tabular-nums; }
+  .score .pct { font-size: 22px; font-weight: 600; }
+  .red { background: var(--red-bg); color: var(--red); }
+  .yellow { background: var(--yellow-bg); color: var(--yellow); }
+  .green { background: var(--green-bg); color: var(--green); }
+  .dots { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 16px; }
+  .dot {
+    width: 30px; height: 30px; border-radius: 6px; display: grid; place-items: center;
+    font-size: 13px; font-variant-numeric: tabular-nums; text-decoration: none; color: inherit;
+  }
+  .legend { font-size: 13px; color: var(--muted); margin-top: 8px; }
+
+  .status { font-size: 13px; font-weight: 600; padding: 2px 8px; border-radius: 999px; margin-left: auto; white-space: nowrap; height: fit-content; }
+  .rev .opts li { border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; }
+  .rev .opts li.ok { border-color: var(--green); background: var(--green-bg); }
+  .rev .opts li.bad { border-color: var(--red); background: var(--red-bg); }
+  .rev .opt-line { display: flex; gap: 10px; flex-wrap: wrap; align-items: baseline; }
+  .tag { font-size: 12px; color: var(--muted); }
+  .rev .expl { font-size: 14px; color: var(--text); margin-top: 4px; }
+  .info { margin: 12px 0 0 36px; font-size: 14px; background: var(--soft); border-radius: 8px; padding: 10px 12px; }
+  .info b { font-weight: 600; }
+  .info p { margin: 4px 0; }
+  @media (max-width: 480px) {
+    .opts, .info { margin-left: 0; }
+    .score .big { font-size: 36px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <section id="start">
+    <h1>Angielski – próbny test, klasa 8</h1>
+    <p class="muted">Losowy zestaw pytań na podstawie testów z lat 2019–2025.</p>
+    <ul class="rules">
+      <li><span id="rule-count"></span> pytań, <span id="rule-min"></span> minut.</li>
+      <li>Uwaga: poprawnych odpowiedzi może być kilka – zaznacz wszystkie.</li>
+      <li>Pytanie jest zaliczone tylko wtedy, gdy zaznaczysz dokładnie wszystkie poprawne odpowiedzi.</li>
+      <li>Po upływie czasu test zakończy się automatycznie.</li>
+    </ul>
+    <div class="actions"><button id="btn-start">Rozpocznij test</button></div>
+    <p class="muted" id="pool-info" style="font-size:13px;margin-top:24px"></p>
+  </section>
+
+  <section id="test" class="hidden">
+    <div class="bar">
+      <span class="timer" id="timer">30:00</span>
+      <span class="progress" id="progress"></span>
+    </div>
+    <div id="questions"></div>
+    <div class="actions"><button id="btn-finish">Zakończ test</button></div>
+  </section>
+
+  <section id="result" class="hidden">
+    <h1>Wynik</h1>
+    <p class="muted" id="result-note"></p>
+    <div class="score" id="score"><div class="big" id="score-big"></div><div class="pct" id="score-pct"></div></div>
+    <div class="dots" id="dots"></div>
+    <p class="legend">Kliknij numer, aby przejść do omówienia pytania.</p>
+    <div class="actions"><button id="btn-again">Nowy test</button></div>
+    <h2 id="review-title"></h2>
+    <div id="review"></div>
+    <div class="actions"><button id="btn-again2">Nowy test</button></div>
+  </section>
+</main>
+
+<script src="questions.js"></script>
+<script>
+// questions.js (generated by build.py) defines window.QUESTION_DATA.
+const DATA = window.QUESTION_DATA;
+
+const $ = (id) => document.getElementById(id);
+const LETTERS = "ABCD";
+let test = null;      // [{q, perm}] perm[displayIndex] = original option index
+let timerId = null;
+let endAt = 0;
+
+function el(tag, attrs, ...children) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (k === "class") e.className = v; else if (k === "text") e.textContent = v; else e.setAttribute(k, v);
+  }
+  for (const c of children) if (c != null) e.append(c);
+  return e;
+}
+
+function shuffle(a) {
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function minutes() {
+  const m = parseFloat(new URLSearchParams(location.search).get("min"));
+  return m > 0 ? m : DATA.minutes;
+}
+
+function pickQuestions() {
+  const byCat = {};
+  for (const q of DATA.questions) (byCat[q.category] ||= []).push(q);
+  const picked = new Set();
+  for (const [cat, info] of Object.entries(DATA.categories)) {
+    for (const q of shuffle([...(byCat[cat] || [])]).slice(0, info.slots)) picked.add(q);
+  }
+  // Fill any shortfall (a category with fewer questions than slots) from the rest of the pool.
+  const rest = shuffle(DATA.questions.filter((q) => !picked.has(q)));
+  while (picked.size < DATA.perTest && rest.length) picked.add(rest.pop());
+  return shuffle([...picked]);
+}
+
+function startTest() {
+  test = pickQuestions().map((q) => ({ q, perm: shuffle([0, 1, 2, 3]) }));
+  const box = $("questions");
+  box.replaceChildren();
+  test.forEach((item, n) => {
+    const opts = el("ul", { class: "opts" });
+    item.perm.forEach((orig, d) => {
+      const input = el("input", { type: "checkbox", "data-q": n, "data-o": orig });
+      const label = el("label", {}, input, el("span", { class: "letter", text: LETTERS[d] + "." }),
+        el("span", { text: item.q.options[orig] }));
+      input.addEventListener("change", () => { label.classList.toggle("checked", input.checked); updateProgress(); });
+      opts.append(el("li", {}, label));
+    });
+    box.append(el("div", { class: "q" },
+      el("div", { class: "q-head" },
+        el("span", { class: "q-num", text: (n + 1) + "." }),
+        el("div", {},
+          el("div", { class: "q-prompt", text: item.q.prompt }),
+          item.q.text ? el("div", { class: "q-text", text: item.q.text }) : null)),
+      opts));
+  });
+  show("test");
+  window.scrollTo(0, 0);
+  updateProgress();
+  endAt = Date.now() + minutes() * 60000;
+  clearInterval(timerId);
+  timerId = setInterval(tick, 250);
+  tick();
+}
+
+function selected(n) {
+  return [...document.querySelectorAll(`input[data-q="${n}"]:checked`)].map((i) => +i.dataset.o);
+}
+
+function updateProgress() {
+  const answered = test.filter((_, n) => selected(n).length).length;
+  $("progress").textContent = `Odpowiedzi: ${answered}/${test.length}`;
+}
+
+function tick() {
+  const left = Math.max(0, endAt - Date.now());
+  const s = Math.ceil(left / 1000);
+  $("timer").textContent = `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`;
+  $("timer").classList.toggle("low", s <= 60);
+  if (left <= 0) finish(true);
+}
+
+function grade(item, n) {
+  const sel = selected(n);
+  const corr = item.q.correct;
+  const hits = sel.filter((o) => corr.includes(o)).length;
+  let status;
+  if (!sel.length) status = "none";
+  else if (hits === corr.length && sel.length === corr.length) status = "ok";
+  else if (hits > 0) status = "partial";
+  else status = "bad";
+  return { sel, status };
+}
+
+const STATUS = {
+  ok: ["Poprawnie", "green"],
+  partial: ["Częściowo", "yellow"],
+  bad: ["Błędnie", "red"],
+  none: ["Brak odpowiedzi", "red"],
+};
+
+function finish(auto) {
+  if (!auto) {
+    const empty = test.filter((_, n) => !selected(n).length).length;
+    if (empty && !confirm(`Bez odpowiedzi: ${empty}. Czy na pewno zakończyć test?`)) return;
+  }
+  clearInterval(timerId);
+  const results = test.map((item, n) => ({ item, n, ...grade(item, n) }));
+  const score = results.filter((r) => r.status === "ok").length;
+  const pct = Math.round((score / test.length) * 100);
+  const color = pct <= 50 ? "red" : pct < 85 ? "yellow" : "green";
+
+  $("result-note").textContent = auto ? "Czas minął – test zakończył się automatycznie." : "";
+  $("score").className = "score " + color;
+  $("score-big").textContent = `${score}/${test.length}`;
+  $("score-pct").textContent = `${pct}%`;
+
+  $("dots").replaceChildren(...results.map((r) =>
+    el("a", { class: "dot " + STATUS[r.status][1], href: r.status === "ok" ? "#" : `#rev-${r.n}`,
+      title: STATUS[r.status][0], text: String(r.n + 1) })));
+
+  const wrong = results.filter((r) => r.status !== "ok");
+  $("review-title").textContent = wrong.length
+    ? `Omówienie błędów (${wrong.length})` : "Wszystkie odpowiedzi poprawne!";
+  $("review").replaceChildren(...wrong.map(renderReview));
+  show("result");
+  window.scrollTo(0, 0);
+}
+
+function renderReview(r) {
+  const { q, perm } = r.item;
+  const opts = el("ul", { class: "opts" });
+  perm.forEach((orig, d) => {
+    const isCorrect = q.correct.includes(orig);
+    const chosen = r.sel.includes(orig);
+    const tags = [];
+    if (isCorrect) tags.push("✓ poprawna");
+    if (chosen) tags.push("twój wybór");
+    const cls = isCorrect ? "ok" : chosen ? "bad" : "";
+    opts.append(el("li", { class: cls },
+      el("div", { class: "opt-line" },
+        el("span", { class: "letter", text: LETTERS[d] + "." }),
+        el("span", { text: q.options[orig] }),
+        tags.length ? el("span", { class: "tag", text: tags.join(" · ") }) : null),
+      (isCorrect || chosen) ? el("div", { class: "expl", text: q.explanations_uk[orig] }) : null));
+  });
+  // Explanations for wrong options that were not chosen, kept short and below.
+  const others = perm.filter((o) => !q.correct.includes(o) && !r.sel.includes(o));
+  const info = el("div", { class: "info" },
+    el("p", {}, el("b", { text: "Переклад: " }), q.translation_uk),
+    el("p", {}, el("b", { text: "Правило: " }), q.rule.name),
+    el("p", { text: q.rule.text_uk }),
+    others.length ? el("p", {}, el("b", { text: "Інші варіанти: " }),
+      others.map((o) => `${q.options[o]} — ${q.explanations_uk[o]}`).join(" ")) : null);
+  const [label, color] = STATUS[r.status];
+  return el("div", { class: "q rev", id: `rev-${r.n}` },
+    el("div", { class: "q-head" },
+      el("span", { class: "q-num", text: (r.n + 1) + "." }),
+      el("div", {},
+        el("div", { class: "q-prompt", text: q.prompt }),
+        q.text ? el("div", { class: "q-text", text: q.text }) : null),
+      el("span", { class: "status " + color, text: label })),
+    opts, info);
+}
+
+function show(id) {
+  for (const s of ["start", "test", "result"]) $(s).classList.toggle("hidden", s !== id);
+}
+
+window.addEventListener("beforeunload", (e) => {
+  if (!$("test").classList.contains("hidden")) { e.preventDefault(); e.returnValue = ""; }
+});
+
+if (!DATA) {
+  $("btn-start").disabled = true;
+  $("pool-info").textContent = "Brak pliku questions.js — uruchom: python build.py";
+  throw new Error("questions.js missing; run python build.py");
+}
+
+$("rule-count").textContent = DATA.perTest;
+$("rule-min").textContent = Math.round(minutes() * 10) / 10;
+$("pool-info").textContent = `Pytań w bazie: ${DATA.questions.length}`;
+$("btn-start").onclick = startTest;
+$("btn-finish").onclick = () => finish(false);
+$("btn-again").onclick = $("btn-again2").onclick = startTest;
+</script>
+</body>
+</html>
